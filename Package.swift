@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "BkeySDK",
+    name: "bkey-ios-sdk",
     platforms: [
       .iOS(.v16),
     ],
@@ -18,16 +18,9 @@ let package = Package(
         //.package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.15.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        /*.target(
-            name: "BkeySDK"),
-        .testTarget(
-            name: "BkeySDKTests",
-            dependencies: ["BkeySDK"]),*/
         .binaryTarget(
             name: "bkey-ios-sdk",
             path: "./bkey-ios-sdk.xcframework"
-        )
+        ),
     ]
 )

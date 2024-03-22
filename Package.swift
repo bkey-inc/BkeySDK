@@ -27,7 +27,7 @@ let package = Package(
             dependencies: ["BkeySDK"]),*/
         .binaryTarget(
             name: "BkeySDK",
-            path: "BkeySDK.xcframework"
+            path: "./bkey-ios-sdk.xcframework"
         )
     ]
 )

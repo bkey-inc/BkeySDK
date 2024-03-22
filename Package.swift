@@ -11,8 +11,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "BkeySDK",
-            targets: ["BkeySDK"]),
+            name: "bkey-ios-sdk",
+            targets: ["bkey-ios-sdk"]),
     ],
     dependencies: [
         //.package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.15.0"),

@@ -15,7 +15,7 @@ let package = Package(
             targets: ["BkeySDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.15.0"),
+        //.package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.15.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -26,7 +26,7 @@ let package = Package(
             name: "BkeySDKTests",
             dependencies: ["BkeySDK"]),*/
         .binaryTarget(
-            name: "BkeySDK",
+            name: "bkey-ios-sdk",
             path: "./bkey-ios-sdk.xcframework"
         )
     ]

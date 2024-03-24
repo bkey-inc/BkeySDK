@@ -29,6 +29,40 @@ public enum BkeyException : Swift.Error {
   case AccessNotAllowed
   case FrameworkError(Swift.String)
 }
+public enum RegistrationResponse {
+  case RegistrationFailed
+  case RegistrationSuccess
+  public static func == (a: bkey_ios_sdk.RegistrationResponse, b: bkey_ios_sdk.RegistrationResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VerificationResponse {
+  case UserCanceled
+  case UserDoesNotExist
+  case UserVerificationFailed
+  case UserVerified
+  public static func == (a: bkey_ios_sdk.VerificationResponse, b: bkey_ios_sdk.VerificationResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Bkey {
+  public static let shared: bkey_ios_sdk.Bkey
+  @objc deinit
+}
+extension bkey_ios_sdk.Bkey {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func Initialize(clientAccessId: Swift.String, clientAccessToken: Swift.String) async throws
+  #endif
+  public func CloseSession() throws
+  public func CreateIdentity(displayName: Swift.String, callback: @escaping (bkey_ios_sdk.RegistrationResponse, Swift.String?) -> Swift.Void) -> some SwiftUI.View
+  
+  public func VerifyIdentity(userId: Swift.String, callback: @escaping (bkey_ios_sdk.VerificationResponse) -> Swift.Void) -> some SwiftUI.View
+  
+}
 
 
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
@@ -53,3 +87,7 @@ extension bkey_ios_sdk.PublicKey {
 extension bkey_ios_sdk.PublicKey : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
+extension bkey_ios_sdk.RegistrationResponse : Swift.Equatable {}
+extension bkey_ios_sdk.RegistrationResponse : Swift.Hashable {}
+extension bkey_ios_sdk.VerificationResponse : Swift.Equatable {}
+extension bkey_ios_sdk.VerificationResponse : Swift.Hashable {}

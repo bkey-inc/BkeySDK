@@ -501,6 +501,780 @@
         "moduleName": "bkey_ios_sdk"
       },
       {
+        "kind": "TypeDecl",
+        "name": "RegistrationResponse",
+        "printedName": "RegistrationResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "RegistrationFailed",
+            "printedName": "RegistrationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.RegistrationResponse.Type) -> bkey_ios_sdk.RegistrationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistrationResponse",
+                    "printedName": "bkey_ios_sdk.RegistrationResponse",
+                    "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.RegistrationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResponse",
+                        "printedName": "bkey_ios_sdk.RegistrationResponse",
+                        "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20RegistrationResponseO0D6FailedyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO0D6FailedyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "RegistrationSuccess",
+            "printedName": "RegistrationSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.RegistrationResponse.Type) -> bkey_ios_sdk.RegistrationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistrationResponse",
+                    "printedName": "bkey_ios_sdk.RegistrationResponse",
+                    "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.RegistrationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResponse",
+                        "printedName": "bkey_ios_sdk.RegistrationResponse",
+                        "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20RegistrationResponseO0D7SuccessyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO0D7SuccessyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RegistrationResponse",
+                "printedName": "bkey_ios_sdk.RegistrationResponse",
+                "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RegistrationResponse",
+                "printedName": "bkey_ios_sdk.RegistrationResponse",
+                "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk20RegistrationResponseO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO2eeoiySbAC_ACtFZ",
+            "moduleName": "bkey_ios_sdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12bkey_ios_sdk20RegistrationResponseO9hashValueSivp",
+            "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO9hashValueSivp",
+            "moduleName": "bkey_ios_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12bkey_ios_sdk20RegistrationResponseO9hashValueSivg",
+                "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO9hashValueSivg",
+                "moduleName": "bkey_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk20RegistrationResponseO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO4hash4intoys6HasherVz_tF",
+            "moduleName": "bkey_ios_sdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12bkey_ios_sdk20RegistrationResponseO",
+        "mangledName": "$s12bkey_ios_sdk20RegistrationResponseO",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerificationResponse",
+        "printedName": "VerificationResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "UserCanceled",
+            "printedName": "UserCanceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.VerificationResponse.Type) -> bkey_ios_sdk.VerificationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResponse",
+                    "printedName": "bkey_ios_sdk.VerificationResponse",
+                    "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.VerificationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationResponse",
+                        "printedName": "bkey_ios_sdk.VerificationResponse",
+                        "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO12UserCanceledyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO12UserCanceledyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "UserDoesNotExist",
+            "printedName": "UserDoesNotExist",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.VerificationResponse.Type) -> bkey_ios_sdk.VerificationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResponse",
+                    "printedName": "bkey_ios_sdk.VerificationResponse",
+                    "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.VerificationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationResponse",
+                        "printedName": "bkey_ios_sdk.VerificationResponse",
+                        "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO16UserDoesNotExistyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO16UserDoesNotExistyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "UserVerificationFailed",
+            "printedName": "UserVerificationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.VerificationResponse.Type) -> bkey_ios_sdk.VerificationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResponse",
+                    "printedName": "bkey_ios_sdk.VerificationResponse",
+                    "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.VerificationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationResponse",
+                        "printedName": "bkey_ios_sdk.VerificationResponse",
+                        "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO04UserD6FailedyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO04UserD6FailedyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "UserVerified",
+            "printedName": "UserVerified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.VerificationResponse.Type) -> bkey_ios_sdk.VerificationResponse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResponse",
+                    "printedName": "bkey_ios_sdk.VerificationResponse",
+                    "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bkey_ios_sdk.VerificationResponse.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationResponse",
+                        "printedName": "bkey_ios_sdk.VerificationResponse",
+                        "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO12UserVerifiedyA2CmF",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO12UserVerifiedyA2CmF",
+            "moduleName": "bkey_ios_sdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResponse",
+                "printedName": "bkey_ios_sdk.VerificationResponse",
+                "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResponse",
+                "printedName": "bkey_ios_sdk.VerificationResponse",
+                "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO2eeoiySbAC_ACtFZ",
+            "moduleName": "bkey_ios_sdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO9hashValueSivp",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO9hashValueSivp",
+            "moduleName": "bkey_ios_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12bkey_ios_sdk20VerificationResponseO9hashValueSivg",
+                "mangledName": "$s12bkey_ios_sdk20VerificationResponseO9hashValueSivg",
+                "moduleName": "bkey_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk20VerificationResponseO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12bkey_ios_sdk20VerificationResponseO4hash4intoys6HasherVz_tF",
+            "moduleName": "bkey_ios_sdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12bkey_ios_sdk20VerificationResponseO",
+        "mangledName": "$s12bkey_ios_sdk20VerificationResponseO",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bkey",
+        "printedName": "Bkey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bkey",
+                "printedName": "bkey_ios_sdk.Bkey",
+                "usr": "s:12bkey_ios_sdk4BkeyC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12bkey_ios_sdk4BkeyC6sharedACvpZ",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC6sharedACvpZ",
+            "moduleName": "bkey_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bkey",
+                    "printedName": "bkey_ios_sdk.Bkey",
+                    "usr": "s:12bkey_ios_sdk4BkeyC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12bkey_ios_sdk4BkeyC6sharedACvgZ",
+                "mangledName": "$s12bkey_ios_sdk4BkeyC6sharedACvgZ",
+                "moduleName": "bkey_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "Initialize",
+            "printedName": "Initialize(clientAccessId:clientAccessToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC10Initialize14clientAccessId0fG5TokenySS_SStYaKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC10Initialize14clientAccessId0fG5TokenySS_SStYaKF",
+            "moduleName": "bkey_ios_sdk",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "CloseSession",
+            "printedName": "CloseSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC12CloseSessionyyKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC12CloseSessionyyKF",
+            "moduleName": "bkey_ios_sdk",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "CreateIdentity",
+            "printedName": "CreateIdentity(displayName:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>, bkey_ios_sdk.BkeyFaceFeatureExtraction>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyNotVerified",
+                        "printedName": "bkey_ios_sdk.BkeyNotVerified",
+                        "usr": "s:12bkey_ios_sdk15BkeyNotVerifiedV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyPermissionsNeeded",
+                        "printedName": "bkey_ios_sdk.BkeyPermissionsNeeded",
+                        "usr": "s:12bkey_ios_sdk21BkeyPermissionsNeededV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BkeyFaceFeatureExtraction",
+                    "printedName": "bkey_ios_sdk.BkeyFaceFeatureExtraction",
+                    "usr": "s:12bkey_ios_sdk25BkeyFaceFeatureExtractionV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.RegistrationResponse, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(bkey_ios_sdk.RegistrationResponse, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResponse",
+                        "printedName": "bkey_ios_sdk.RegistrationResponse",
+                        "usr": "s:12bkey_ios_sdk20RegistrationResponseO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC14CreateIdentity11displayName8callbackQrSS_yAA20RegistrationResponseO_SSSgtctF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC14CreateIdentity11displayName8callbackQrSS_yAA20RegistrationResponseO_SSSgtctF",
+            "moduleName": "bkey_ios_sdk",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VerifyIdentity",
+            "printedName": "VerifyIdentity(userId:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>, SwiftUI._ConditionalContent<SwiftUI.EmptyView, bkey_ios_sdk.BkeyFaceFeatureExtraction>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyNotVerified",
+                        "printedName": "bkey_ios_sdk.BkeyNotVerified",
+                        "usr": "s:12bkey_ios_sdk15BkeyNotVerifiedV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyPermissionsNeeded",
+                        "printedName": "bkey_ios_sdk.BkeyPermissionsNeeded",
+                        "usr": "s:12bkey_ios_sdk21BkeyPermissionsNeededV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<SwiftUI.EmptyView, bkey_ios_sdk.BkeyFaceFeatureExtraction>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmptyView",
+                        "printedName": "SwiftUI.EmptyView",
+                        "usr": "s:7SwiftUI9EmptyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyFaceFeatureExtraction",
+                        "printedName": "bkey_ios_sdk.BkeyFaceFeatureExtraction",
+                        "usr": "s:12bkey_ios_sdk25BkeyFaceFeatureExtractionV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bkey_ios_sdk.VerificationResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResponse",
+                    "printedName": "bkey_ios_sdk.VerificationResponse",
+                    "usr": "s:12bkey_ios_sdk20VerificationResponseO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC14VerifyIdentity6userId8callbackQrSS_yAA20VerificationResponseOctF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC14VerifyIdentity6userId8callbackQrSS_yAA20VerificationResponseOctF",
+            "moduleName": "bkey_ios_sdk",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12bkey_ios_sdk4BkeyC",
+        "mangledName": "$s12bkey_ios_sdk4BkeyC",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2545,287 +3319,287 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 1268,
+      "offset": 1289,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1379,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
+      "offset": 1413,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1830,
       "length": 22,
       "value": "\"Initialization error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2947,
+      "offset": 2975,
       "length": 27,
       "value": "\"Error initializing client\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3107,
       "length": 27,
       "value": "\"Error initializing client\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3222,
       "length": 22,
       "value": "\"Initializing SDKs...\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3307,
       "length": 29,
       "value": "\"SDK version = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3450,
       "length": 35,
       "value": "\"Failed to setup NDEFInterface key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 3603,
       "length": 27,
       "value": "\"Failed to initialize SDKs\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3807,
       "length": 13,
       "value": "\"Cleaning up\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4527,
+      "offset": 4555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4664,
+      "offset": 4692,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 4718,
+      "offset": 4746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4755,
+      "offset": 4783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4836,
+      "offset": 4864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6245,
+      "offset": 6273,
       "length": 37,
       "value": "\"user\/v1\/create-user-from-framework\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 6309,
+      "offset": 6337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6808,
+      "offset": 6836,
       "length": 26,
       "value": "\"Create Identity Failure:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7025,
+      "offset": 7053,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 7052,
+      "offset": 7080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 7147,
+      "offset": 7175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7222,
+      "offset": 7250,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7283,
+      "offset": 7311,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7712,
+      "offset": 7740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 8271,
+      "offset": 8299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 8370,
+      "offset": 8398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 8928,
+      "offset": 8956,
       "length": 24,
       "value": "\"Verification Requested\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 8959,
+      "offset": 8987,
       "length": 39,
       "value": "\"Verification of your identity passed.\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9225,
+      "offset": 9253,
       "length": 26,
       "value": "\"user\/v1\/log-user-access\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 9277,
+      "offset": 9305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9565,
+      "offset": 9593,
       "length": 24,
       "value": "\"Verification Requested\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9596,
+      "offset": 9624,
       "length": 39,
       "value": "\"Verification of your identity failed.\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9862,
+      "offset": 9890,
       "length": 26,
       "value": "\"user\/v1\/log-user-access\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 9914,
+      "offset": 9942,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10157,
+      "offset": 10185,
       "length": 33,
       "value": "\"Verify Identity Catch - Failed:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 10482,
+      "offset": 10510,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10865,
+      "offset": 10893,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10899,
+      "offset": 10927,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10966,
+      "offset": 10994,
       "length": 35,
       "value": "\"Error storing identities to chain\""
     },

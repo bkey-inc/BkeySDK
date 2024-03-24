@@ -17,60 +17,6 @@ import _SwiftConcurrencyShims
 @_exported import bkey_ios_sdk
 import os.lock
 import os
-public enum ThemeColorOptions {
-  case Dark
-  public static func == (a: bkey_ios_sdk.ThemeColorOptions, b: bkey_ios_sdk.ThemeColorOptions) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum ThemeFontOptions {
-  case Lato
-  public static func == (a: bkey_ios_sdk.ThemeFontOptions, b: bkey_ios_sdk.ThemeFontOptions) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum ThemeColor {
-  case Black
-  case Gray100
-  case Gray200
-  case Gray300
-  case Gray400
-  case Gray500
-  case White
-  case Red
-  case Blue
-  case Green
-  case Yellow
-  case Purple
-  public static func == (a: bkey_ios_sdk.ThemeColor, b: bkey_ios_sdk.ThemeColor) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum ThemeFont {
-  case Regular
-  case Bold
-  case Thin
-  case Black
-  case Light
-  public static func == (a: bkey_ios_sdk.ThemeFont, b: bkey_ios_sdk.ThemeFont) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class Theme {
-  public var themeOption: bkey_ios_sdk.ThemeColorOptions
-  public var fontOption: bkey_ios_sdk.ThemeFontOptions
-  public func GetFont(font: bkey_ios_sdk.ThemeFont, size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public func GetColor(color: bkey_ios_sdk.ThemeColor) -> SwiftUI.Color
-  @objc deinit
-}
 public enum NFCCardException : Swift.Error {
   case CardWasEmpty
   case FailedToReadCard(Swift.String)
@@ -78,45 +24,13 @@ public enum NFCCardException : Swift.Error {
   case FailedToWriteToCard(Swift.String)
   case OperationCanceled
 }
-public enum PermissionException : Swift.Error {
+public enum BkeyException : Swift.Error {
   case FrameworkNotInitialized
   case AccessNotAllowed
-  public static func == (a: bkey_ios_sdk.PermissionException, b: bkey_ios_sdk.PermissionException) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case FrameworkError(Swift.String)
 }
-public let bkey: bkey_ios_sdk.Bkey
-@_hasMissingDesignatedInitializers public class Bkey {
-  public static let shared: bkey_ios_sdk.Bkey
-  @objc deinit
-}
-extension bkey_ios_sdk.Bkey {
-  public func TestDisplay() -> some SwiftUI.View
-  
-  #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize(clientId: Swift.String, accessToken: Swift.String) async throws
-  #endif
-  public func Release() throws
-  #if compiler(>=5.3) && $AsyncAwait
-  public func RegisterBiometrics(accountName: Swift.String) async throws -> (Swift.String, [Swift.UInt8])
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func VerifyBiometrics(id: Swift.String, template: [Swift.UInt8]) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func ExternalImportAndVerify() async throws -> (Swift.String, [Swift.UInt8])
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func ExportTemplate() async throws
-  #endif
-  public func Sign() throws
-  public func VerifySignature() throws
-  public func Encrypt() throws
-  public func Decrypt() throws
-  public func GenerateSeedPhrase() throws
-}
+
+
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
@@ -139,13 +53,3 @@ extension bkey_ios_sdk.PublicKey {
 extension bkey_ios_sdk.PublicKey : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-extension bkey_ios_sdk.ThemeColorOptions : Swift.Equatable {}
-extension bkey_ios_sdk.ThemeColorOptions : Swift.Hashable {}
-extension bkey_ios_sdk.ThemeFontOptions : Swift.Equatable {}
-extension bkey_ios_sdk.ThemeFontOptions : Swift.Hashable {}
-extension bkey_ios_sdk.ThemeColor : Swift.Equatable {}
-extension bkey_ios_sdk.ThemeColor : Swift.Hashable {}
-extension bkey_ios_sdk.ThemeFont : Swift.Equatable {}
-extension bkey_ios_sdk.ThemeFont : Swift.Hashable {}
-extension bkey_ios_sdk.PermissionException : Swift.Equatable {}
-extension bkey_ios_sdk.PermissionException : Swift.Hashable {}

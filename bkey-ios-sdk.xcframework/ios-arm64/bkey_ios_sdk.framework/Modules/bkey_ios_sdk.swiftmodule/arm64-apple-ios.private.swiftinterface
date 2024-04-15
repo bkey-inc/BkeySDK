@@ -10,6 +10,7 @@ import CryptoKit
 import Foundation
 import Swift
 import SwiftUI
+import UIKit
 import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
@@ -17,6 +18,7 @@ import _SwiftConcurrencyShims
 @_exported import bkey_ios_sdk
 import os.lock
 import os
+
 public enum NFCCardException : Swift.Error {
   case CardWasEmpty
   case FailedToReadCard(Swift.String)
@@ -29,6 +31,7 @@ public enum BkeyException : Swift.Error {
   case AccessNotAllowed
   case FrameworkError(Swift.String)
 }
+
 public enum RegistrationResponse {
   case RegistrationFailed
   case RegistrationSuccess
@@ -51,19 +54,27 @@ public enum VerificationResponse {
 }
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
+  public func OnIdentityCreated()
+  public func OnIdentityVerified()
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
   #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize(clientAccessId: Swift.String, clientAccessToken: Swift.String) async throws
+  public func Initialize(authToken: Swift.String) async throws
   #endif
   public func CloseSession() throws
-  public func CreateIdentity(displayName: Swift.String, callback: @escaping (bkey_ios_sdk.RegistrationResponse, Swift.String?) -> Swift.Void) -> some SwiftUI.View
-  
-  public func VerifyIdentity(userId: Swift.String, callback: @escaping (bkey_ios_sdk.VerificationResponse) -> Swift.Void) -> some SwiftUI.View
+  public func Authenticate() -> some SwiftUI.View
   
 }
 
+
+
+
+
+extension SwiftUI.View {
+  public func lazyPop(isEnabled: (SwiftUI.Binding<Swift.Bool>)? = nil) -> some SwiftUI.View
+  
+}
 
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)

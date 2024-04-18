@@ -32,30 +32,10 @@ public enum BkeyException : Swift.Error {
   case FrameworkError(Swift.String)
 }
 
-public enum RegistrationResponse {
-  case RegistrationFailed
-  case RegistrationSuccess
-  public static func == (a: bkey_ios_sdk.RegistrationResponse, b: bkey_ios_sdk.RegistrationResponse) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum VerificationResponse {
-  case UserCanceled
-  case UserDoesNotExist
-  case UserVerificationFailed
-  case UserVerified
-  public static func == (a: bkey_ios_sdk.VerificationResponse, b: bkey_ios_sdk.VerificationResponse) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
-  public func OnIdentityCreated()
-  public func OnIdentityVerified()
+  public func OnIdentityCreated(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
+  public func OnIdentityVerified(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
@@ -65,6 +45,15 @@ extension bkey_ios_sdk.Bkey {
   public func CloseSession() throws
   public func Authenticate() -> some SwiftUI.View
   
+  public func VerifyCurrentUserBiometrics() throws -> Swift.Bool
+  public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
+  public func SignData(data: Foundation.Data) throws -> Foundation.Data
+  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data) throws -> Swift.Bool
+  public func EncryptString(value: Swift.String) throws -> Swift.String
+  public func DecryptString(value: Swift.String) throws -> Swift.String
+  public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
+  public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
+  public func GetCryptoSeedPhrase() throws
 }
 
 
@@ -98,7 +87,3 @@ extension bkey_ios_sdk.PublicKey {
 extension bkey_ios_sdk.PublicKey : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-extension bkey_ios_sdk.RegistrationResponse : Swift.Equatable {}
-extension bkey_ios_sdk.RegistrationResponse : Swift.Hashable {}
-extension bkey_ios_sdk.VerificationResponse : Swift.Equatable {}
-extension bkey_ios_sdk.VerificationResponse : Swift.Hashable {}

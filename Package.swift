@@ -14,9 +14,6 @@ let package = Package(
             name: "bkey-ios-sdk",
             targets: ["bkey-ios-sdk"]),
     ],
-    dependencies: [
-        //.package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.15.0"),
-    ],
     targets: [
         .binaryTarget(
             name: "bkey-ios-sdk",

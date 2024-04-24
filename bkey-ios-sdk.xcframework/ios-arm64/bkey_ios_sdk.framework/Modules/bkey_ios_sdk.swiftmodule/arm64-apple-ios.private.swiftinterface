@@ -7,9 +7,6 @@ import Combine
 import CoreData
 import CoreNFC
 import CryptoKit
-import CryptoKit/*.Digest*/
-import CryptoKit/*.SHA256*/
-import CryptoKit/*.SharedSecret*/
 import Foundation
 import Swift
 import SwiftUI
@@ -37,8 +34,6 @@ public enum BkeyException : Swift.Error {
 
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
-  public func OnIdentityCreated(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
-  public func OnIdentityVerified(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
@@ -50,24 +45,8 @@ extension bkey_ios_sdk.Bkey {
   
   public func VerifyCurrentUserBiometrics() throws -> Swift.Bool
   public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
-  public func SignData(data: Foundation.Data) throws -> Foundation.Data
-  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data) throws -> Swift.Bool
-  public func EncryptString(value: Swift.String) throws -> Swift.String
-  public func DecryptString(value: Swift.String) throws -> Swift.String
-  public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  public func GetCryptoSeedPhrase() throws
 }
 
-extension Foundation.ContiguousBytes {
-  @inlinable internal var bytes: [Swift.UInt8] {
-    get {
-		withUnsafeBytes { pointer in
-			Array(pointer)
-		}
-	}
-  }
-}
 
 
 
@@ -75,20 +54,6 @@ extension Foundation.ContiguousBytes {
 extension SwiftUI.View {
   public func lazyPop(isEnabled: (SwiftUI.Binding<Swift.Bool>)? = nil) -> some SwiftUI.View
   
-}
-@inlinable internal func safeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Foundation.ContiguousBytes, RHS : Foundation.ContiguousBytes {
-    lhs.withUnsafeBytes { lhsPtr in
-        rhs.withUnsafeBytes { rhsPtr in
-            constantTimeCompare(lhsPtr, rhsPtr)
-        }
-    }
-}
-@inlinable internal func constantTimeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Swift.Collection, RHS : Swift.Collection, LHS.Element == Swift.UInt8, RHS.Element == Swift.UInt8 {
-    guard lhs.count == rhs.count else {
-        return false
-    }
-
-    return zip(lhs, rhs).reduce(into: 0) { $0 |= $1.0 ^ $1.1 } == 0
 }
 
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {

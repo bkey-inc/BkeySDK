@@ -8060,91 +8060,119 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7584,
+      "offset": 7489,
+      "length": 13,
+      "value": "\"Done saving\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7625,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7966,
+      "offset": 7731,
+      "length": 24,
+      "value": "\"Access Method appended\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7916,
+      "length": 24,
+      "value": "\"state is authenticated\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8053,
+      "length": 18,
+      "value": "\"Calling callback\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8241,
       "length": 26,
       "value": "\"Create Identity Failure:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8165,
+      "offset": 8440,
       "length": 19,
       "value": "\"Verifying user...\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8403,
+      "offset": 8678,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 8535,
+      "offset": 8810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8885,
+      "offset": 9160,
       "length": 20,
       "value": "\"Verification Error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9116,
+      "offset": 9391,
       "length": 29,
       "value": "\"Adding identity to keychain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9166,
+      "offset": 9441,
       "length": 18,
       "value": "\"Identity length \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "Array",
-      "offset": 9302,
+      "offset": 9577,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9685,
+      "offset": 9960,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9719,
+      "offset": 9994,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9769,
+      "offset": 10044,
       "length": 14,
       "value": "\"Save success\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/IdentityCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9839,
+      "offset": 10114,
       "length": 35,
       "value": "\"Error storing identities to chain\""
     },
@@ -8160,7 +8188,7 @@
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 3,
-      "value": "250"
+      "value": "258"
     },
     {
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_618066A1D0012CB92D0DF1384ECB9429Ll7PreviewfMf_.swift",
@@ -9089,79 +9117,107 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3381,
+      "length": 15,
+      "value": "\"Run auth flow\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 3468,
       "length": 42,
       "value": "\"auth\/v1\/get-webauthn-challenge\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3509,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 3490,
+      "offset": 3521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4197,
+      "offset": 3723,
+      "length": 13,
+      "value": "\"private key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 4292,
       "length": 45,
       "value": "\"auth\/v1\/submit-challenge-response-framework\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 4417,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4457,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4407,
+      "offset": 4502,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4483,
+      "offset": 4578,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4533,
+      "offset": 4628,
       "length": 20,
       "value": "\"Bkey-Authorization\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 4759,
+      "length": 10,
+      "value": "\"Response\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "IntegerLiteral",
-      "offset": 4726,
+      "offset": 4880,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "IntegerLiteral",
-      "offset": 4732,
+      "offset": 4886,
       "length": 3,
       "value": "299"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 5100,
+      "length": 12,
+      "value": "\"auth token\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/K1\/K1\/Sources\/K1\/Support\/FFI\/API\/Schnorr\/FFI+Schnorr.swift",

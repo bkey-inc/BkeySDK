@@ -21,7 +21,6 @@ import _SwiftConcurrencyShims
 @_exported import bkey_ios_sdk
 import os.lock
 import os
-import secp256k1
 
 public enum NFCCardException : Swift.Error {
   case CardWasEmpty

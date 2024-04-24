@@ -7,6 +7,9 @@ import Combine
 import CoreData
 import CoreNFC
 import CryptoKit
+import CryptoKit/*.Digest*/
+import CryptoKit/*.SHA256*/
+import CryptoKit/*.SharedSecret*/
 import Foundation
 import Swift
 import SwiftUI
@@ -45,8 +48,32 @@ extension bkey_ios_sdk.Bkey {
   
   public func VerifyCurrentUserBiometrics() throws -> Swift.Bool
   public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
+  public func GetCryptoSeedPhrase() throws
+}
+@inlinable internal func safeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Foundation.ContiguousBytes, RHS : Foundation.ContiguousBytes {
+    lhs.withUnsafeBytes { lhsPtr in
+        rhs.withUnsafeBytes { rhsPtr in
+            constantTimeCompare(lhsPtr, rhsPtr)
+        }
+    }
+}
+@inlinable internal func constantTimeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Swift.Collection, RHS : Swift.Collection, LHS.Element == Swift.UInt8, RHS.Element == Swift.UInt8 {
+    guard lhs.count == rhs.count else {
+        return false
+    }
+
+    return zip(lhs, rhs).reduce(into: 0) { $0 |= $1.0 ^ $1.1 } == 0
 }
 
+extension Foundation.ContiguousBytes {
+  @inlinable internal var bytes: [Swift.UInt8] {
+    get {
+		withUnsafeBytes { pointer in
+			Array(pointer)
+		}
+	}
+  }
+}
 
 
 

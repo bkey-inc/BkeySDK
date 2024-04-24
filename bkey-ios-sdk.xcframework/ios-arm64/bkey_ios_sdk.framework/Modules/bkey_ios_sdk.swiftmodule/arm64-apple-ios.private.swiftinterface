@@ -37,6 +37,8 @@ public enum BkeyException : Swift.Error {
 
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
+  public func OnIdentityCreated(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
+  public func OnIdentityVerified(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
@@ -48,6 +50,12 @@ extension bkey_ios_sdk.Bkey {
   
   public func VerifyCurrentUserBiometrics() throws -> Swift.Bool
   public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
+  public func SignData(data: Foundation.Data) throws -> Foundation.Data
+  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data) throws -> Swift.Bool
+  public func EncryptString(value: Swift.String) throws -> Swift.String
+  public func DecryptString(value: Swift.String) throws -> Swift.String
+  public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
+  public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func GetCryptoSeedPhrase() throws
 }
 @inlinable internal func safeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Foundation.ContiguousBytes, RHS : Foundation.ContiguousBytes {

@@ -35,15 +35,22 @@ public enum BkeyException : Swift.Error {
   case FrameworkError(Swift.String)
 }
 
+public enum CallbackType {
+  case IdentityCreated
+  case IdentityVerified
+  public static func == (a: bkey_ios_sdk.CallbackType, b: bkey_ios_sdk.CallbackType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
-  public func OnIdentityCreated(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
-  public func OnIdentityVerified(userId: Swift.String, displayName: Swift.String, authToken: Swift.String)
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
   #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize(authToken: Swift.String) async throws
+  public func Initialize(authToken: Swift.String, callback: @escaping (_ type: bkey_ios_sdk.CallbackType, _ userId: Swift.String, _ displayName: Swift.String, _ authToken: Swift.String) -> Swift.Void) async throws
   #endif
   public func CloseSession() throws
   public func Authenticate() -> some SwiftUI.View
@@ -113,3 +120,5 @@ extension bkey_ios_sdk.PublicKey {
 extension bkey_ios_sdk.PublicKey : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
+extension bkey_ios_sdk.CallbackType : Swift.Equatable {}
+extension bkey_ios_sdk.CallbackType : Swift.Hashable {}

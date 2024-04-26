@@ -55,8 +55,11 @@ extension bkey_ios_sdk.Bkey {
   public func CloseSession() throws
   public func Authenticate() -> some SwiftUI.View
   
-  public func VerifyCurrentUserBiometrics() throws -> Swift.Bool
+  public func VerifyCurrentUserBiometrics(callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
+  
   public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
+  public func SignString(value: Swift.String) throws -> Foundation.Data
+  public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data) throws -> Swift.Bool
   public func SignData(data: Foundation.Data) throws -> Foundation.Data
   public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data) throws -> Swift.Bool
   public func EncryptString(value: Swift.String) throws -> Swift.String
@@ -79,6 +82,7 @@ extension bkey_ios_sdk.Bkey {
 
     return zip(lhs, rhs).reduce(into: 0) { $0 |= $1.0 ^ $1.1 } == 0
 }
+
 
 extension Foundation.ContiguousBytes {
   @inlinable internal var bytes: [Swift.UInt8] {

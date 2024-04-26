@@ -1099,21 +1099,69 @@
           {
             "kind": "Function",
             "name": "VerifyCurrentUserBiometrics",
-            "printedName": "VerifyCurrentUserBiometrics()",
+            "printedName": "VerifyCurrentUserBiometrics(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>, bkey_ios_sdk.BiometricReVerification>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyNotVerified",
+                        "printedName": "bkey_ios_sdk.BkeyNotVerified",
+                        "usr": "s:12bkey_ios_sdk15BkeyNotVerifiedV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyPermissionsNeeded",
+                        "printedName": "bkey_ios_sdk.BkeyPermissionsNeeded",
+                        "usr": "s:12bkey_ios_sdk21BkeyPermissionsNeededV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricReVerification",
+                    "printedName": "bkey_ios_sdk.BiometricReVerification",
+                    "usr": "s:12bkey_ios_sdk23BiometricReVerificationV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12bkey_ios_sdk4BkeyC27VerifyCurrentUserBiometricsSbyKF",
-            "mangledName": "$s12bkey_ios_sdk4BkeyC27VerifyCurrentUserBiometricsSbyKF",
+            "usr": "s:12bkey_ios_sdk4BkeyC27VerifyCurrentUserBiometrics8callbackQrySbc_tF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC27VerifyCurrentUserBiometrics8callbackQrySbc_tF",
             "moduleName": "bkey_ios_sdk",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1131,6 +1179,64 @@
             "declKind": "Func",
             "usr": "s:12bkey_ios_sdk4BkeyC24VerifyCurrentUserNfcCardSbyKF",
             "mangledName": "$s12bkey_ios_sdk4BkeyC24VerifyCurrentUserNfcCardSbyKF",
+            "moduleName": "bkey_ios_sdk",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "SignString",
+            "printedName": "SignString(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC10SignString5value10Foundation4DataVSS_tKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC10SignString5value10Foundation4DataVSS_tKF",
+            "moduleName": "bkey_ios_sdk",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VerifyStringSignature",
+            "printedName": "VerifyStringSignature(value:signature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC21VerifyStringSignature5value9signatureSbSS_10Foundation4DataVtKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC21VerifyStringSignature5value9signatureSbSS_10Foundation4DataVtKF",
             "moduleName": "bkey_ios_sdk",
             "isFromExtension": true,
             "throwing": true,
@@ -1499,6 +1605,16 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "bkey_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -10195,21 +10311,14 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5828,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6143,
+      "offset": 6171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7683,
+      "offset": 8742,
       "length": 1,
       "value": "0"
     },
@@ -11024,6 +11133,48 @@
       "offset": 2063,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BiometricReVerification.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 19,
+      "value": "\"Verifying user...\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BiometricReVerification.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BiometricReVerification.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 20,
+      "value": "\"Verification Error\""
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_F6336418F83BAD90DE28E8C85BF79352Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 44,
+      "value": "\"bkey_ios_sdk\/BiometricReVerification.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_F6336418F83BAD90DE28E8C85BF79352Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_F6336418F83BAD90DE28E8C85BF79352Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/K1\/K1\/Sources\/K1\/Support\/ThirdyParty\/swift-crypto\/ASN1\/PEMDocument.swift",

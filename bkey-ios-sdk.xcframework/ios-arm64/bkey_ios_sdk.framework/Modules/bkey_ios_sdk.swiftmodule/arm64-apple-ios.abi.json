@@ -16501,295 +16501,295 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
+      "kind": "StringLiteral",
+      "offset": 4008,
+      "length": 23,
+      "value": "\"Attempting to encrypt\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 4727,
+      "offset": 4880,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 5247,
+      "offset": 5400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 5298,
+      "offset": 5451,
       "length": 28,
       "value": "\"ECDH AES Encryption Failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "Array",
-      "offset": 5577,
+      "offset": 5730,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 5603,
+      "offset": 5756,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 5844,
+      "offset": 5997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 5867,
+      "offset": 6020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 6322,
+      "offset": 6475,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 6349,
+      "offset": 6502,
       "length": 11,
       "value": "\"Decrypt: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 6666,
+      "offset": 6819,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 6717,
+      "offset": 6870,
       "length": 28,
       "value": "\"ECDH AES Decryption Failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "Array",
-      "offset": 6964,
+      "offset": 7117,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 6990,
+      "offset": 7143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7122,
+      "offset": 7275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 7144,
+      "offset": 7297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7193,
+      "offset": 7346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7199,
+      "offset": 7352,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 7264,
+      "offset": 7417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7356,
+      "offset": 7509,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7362,
+      "offset": 7515,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7392,
+      "offset": 7545,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7425,
+      "offset": 7578,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7431,
+      "offset": 7584,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7448,
+      "offset": 7601,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7454,
+      "offset": 7607,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7486,
+      "offset": 7639,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 7530,
+      "offset": 7683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 7593,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7611,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7672,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7723,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
-      "kind": "BooleanLiteral",
       "offset": 7746,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7764,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7825,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "IntegerLiteral",
-      "offset": 8198,
+      "offset": 8351,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 8701,
+      "offset": 8854,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 8752,
+      "offset": 8905,
       "length": 28,
       "value": "\"ECDH AES Decryption Failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 9157,
+      "offset": 9264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 9485,
+      "offset": 9592,
       "length": 25,
       "value": "\"Digital Signing Failed!\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 9732,
+      "offset": 9839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 9899,
+      "offset": 9961,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
-      "kind": "StringLiteral",
-      "offset": 10276,
-      "length": 15,
-      "value": "\"Signing P Key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "BooleanLiteral",
-      "offset": 10527,
+      "offset": 10332,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Core\/DigitalSigning.swift",
       "kind": "StringLiteral",
-      "offset": 10592,
+      "offset": 10397,
       "length": 30,
       "value": "\"Signature verification error\""
     },

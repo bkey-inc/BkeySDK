@@ -1,15 +1,12 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios16.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bkey_ios_sdk
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bkey_ios_sdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Combine
 import CoreData
 import CoreNFC
 import CryptoKit
-import CryptoKit/*.Digest*/
-import CryptoKit/*.SHA256*/
-import CryptoKit/*.SharedSecret*/
 import Foundation
 import Swift
 import SwiftUI
@@ -21,7 +18,20 @@ import _SwiftConcurrencyShims
 @_exported import bkey_ios_sdk
 import os.lock
 import os
+import secp256k1
 
+extension bkey_ios_sdk.secp256k1 {
+  public struct Context : Swift.OptionSet {
+    public static let rawRepresentation: Swift.OpaquePointer
+    public let rawValue: Swift.UInt32
+    public init(rawValue: Swift.UInt32)
+    public static let none: bkey_ios_sdk.secp256k1.Context
+    public static func create(_ context: bkey_ios_sdk.secp256k1.Context = .none) throws -> Swift.OpaquePointer
+    public typealias ArrayLiteralElement = bkey_ios_sdk.secp256k1.Context
+    public typealias Element = bkey_ios_sdk.secp256k1.Context
+    public typealias RawValue = Swift.UInt32
+  }
+}
 public enum NFCCardException : Swift.Error {
   case CardWasEmpty
   case FailedToReadCard(Swift.String)
@@ -33,6 +43,37 @@ public enum BkeyException : Swift.Error {
   case FrameworkNotInitialized
   case AccessNotAllowed
   case FrameworkError(Swift.String)
+}
+public typealias SHA256Digest = bkey_ios_sdk.HashDigest
+public struct HashDigest : bkey_ios_sdk.Digest {
+  public init(_ output: [Swift.UInt8])
+  public static var byteCount: Swift.Int {
+    get
+    set
+  }
+  public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
+  public var description: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias Element = Swift.IndexingIterator<Swift.Array<Swift.UInt8>>.Element
+  public typealias Iterator = Swift.Array<Swift.UInt8>.Iterator
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension bkey_ios_sdk.HashDigest : Swift.Comparable {
+  public static func < (lhs: bkey_ios_sdk.HashDigest, rhs: bkey_ios_sdk.HashDigest) -> Swift.Bool
+}
+public enum secp256k1Error : Swift.Error {
+  case incorrectKeySize
+  case incorrectParameterSize
+  case underlyingCryptoError
+  public static func == (a: bkey_ios_sdk.secp256k1Error, b: bkey_ios_sdk.secp256k1Error) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 
 public enum CallbackType {
@@ -68,40 +109,446 @@ extension bkey_ios_sdk.Bkey {
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func GetCryptoSeedPhrase() throws
 }
-@inlinable internal func safeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Foundation.ContiguousBytes, RHS : Foundation.ContiguousBytes {
-    lhs.withUnsafeBytes { lhsPtr in
-        rhs.withUnsafeBytes { rhsPtr in
-            constantTimeCompare(lhsPtr, rhsPtr)
-        }
-    }
-}
-@inlinable internal func constantTimeCompare<LHS, RHS>(_ lhs: LHS, _ rhs: RHS) -> Swift.Bool where LHS : Swift.Collection, RHS : Swift.Collection, LHS.Element == Swift.UInt8, RHS.Element == Swift.UInt8 {
-    guard lhs.count == rhs.count else {
-        return false
-    }
-
-    return zip(lhs, rhs).reduce(into: 0) { $0 |= $1.0 ^ $1.1 } == 0
-}
-
-
 extension Foundation.ContiguousBytes {
-  @inlinable internal var bytes: [Swift.UInt8] {
+  @inlinable public var bytes: [Swift.UInt8] {
     get {
-		withUnsafeBytes { pointer in
-			Array(pointer)
-		}
-	}
+        withUnsafeBytes { bytesPtr in Array(bytesPtr) }
+    }
+  }
+}
+extension Foundation.Data {
+  @inlinable public var bytes: [Swift.UInt8] {
+    get {
+        withUnsafeBytes { bytesPtr in Array(bytesPtr) }
+    }
+  }
+  public func copyToUnsafeMutableBytes<T>(of value: inout T)
+  public var compactSizePrefix: Foundation.Data {
+    get
+  }
+}
+extension secp256k1.secp256k1_ecdsa_signature {
+  public var dataValue: Foundation.Data {
+    get
+  }
+}
+extension secp256k1.secp256k1_ecdsa_recoverable_signature {
+  public var dataValue: Foundation.Data {
+    get
+  }
+}
+extension Swift.String {
+  public init<T>(bytes: T) where T : Foundation.DataProtocol
+  #if compiler(>=5.3) && $EffectfulProp
+  public var bytes: [Swift.UInt8] {
+    get throws
+  }
+  #endif
+}
+
+extension bkey_ios_sdk.secp256k1 {
+  public enum Signing {
+    public struct PrivateKey : Swift.Equatable {
+      public var publicKey: bkey_ios_sdk.secp256k1.Signing.PublicKey {
+        get
+      }
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      #if compiler(>=5.3) && $EffectfulProp
+      public var negation: bkey_ios_sdk.secp256k1.Signing.PrivateKey {
+        get throws
+      }
+      #endif
+      public init(format: bkey_ios_sdk.secp256k1.Format = .compressed) throws
+      public init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : Foundation.ContiguousBytes
+      public static func == (lhs: bkey_ios_sdk.secp256k1.Signing.PrivateKey, rhs: bkey_ios_sdk.secp256k1.Signing.PrivateKey) -> Swift.Bool
+    }
+    public struct PublicKey {
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      public var rawRepresentation: secp256k1.secp256k1_pubkey {
+        get
+      }
+      public var xonly: bkey_ios_sdk.secp256k1.Signing.XonlyKey {
+        get
+      }
+      public var format: bkey_ios_sdk.secp256k1.Format {
+        get
+      }
+      #if compiler(>=5.3) && $EffectfulProp
+      public var negation: bkey_ios_sdk.secp256k1.Signing.PublicKey {
+        get throws
+      }
+      #endif
+      public init(xonlyKey: bkey_ios_sdk.secp256k1.Signing.XonlyKey)
+      public init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format) throws where D : Foundation.ContiguousBytes
+    }
+    public struct XonlyKey {
+      public var bytes: [Swift.UInt8] {
+        get
+      }
+      public var parity: Swift.Bool {
+        get
+      }
+      public init<D>(dataRepresentation data: D, keyParity: Swift.Int32) where D : Foundation.ContiguousBytes
+    }
   }
 }
 
+public enum SHA256 {
+  @inlinable internal static var digestByteCount: Swift.Int {
+    get {
+        32
+    }
+  }
+  public static func hash<D>(data: D) -> bkey_ios_sdk.SHA256Digest where D : Foundation.DataProtocol
+  public static func taggedHash<D>(tag: D, data: D) throws -> bkey_ios_sdk.SHA256Digest where D : Foundation.DataProtocol
+}
+extension bkey_ios_sdk.secp256k1 {
+  public enum KeyAgreement {
+    public struct PublicKey {
+      public init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : Foundation.ContiguousBytes
+      public var xonly: bkey_ios_sdk.secp256k1.KeyAgreement.XonlyKey {
+        get
+      }
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      public var rawRepresentation: secp256k1.secp256k1_pubkey {
+        get
+      }
+    }
+    public struct XonlyKey {
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      public var rawRepresentation: secp256k1.secp256k1_xonly_pubkey {
+        get
+      }
+      public var parity: Swift.Bool {
+        get
+      }
+    }
+    public struct PrivateKey {
+      public init(format: bkey_ios_sdk.secp256k1.Format = .compressed) throws
+      public init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : Foundation.ContiguousBytes
+      public var publicKey: bkey_ios_sdk.secp256k1.KeyAgreement.PublicKey {
+        get
+      }
+      public var rawRepresentation: Foundation.Data {
+        get
+      }
+    }
+  }
+}
+extension bkey_ios_sdk.secp256k1.KeyAgreement.PrivateKey {
+  public typealias HashFunctionType = @convention(c) (Swift.UnsafeMutablePointer<Swift.UInt8>?, Swift.UnsafePointer<Swift.UInt8>?, Swift.UnsafePointer<Swift.UInt8>?, Swift.UnsafeMutableRawPointer?) -> Swift.Int32
+  public func sharedSecretFromKeyAgreement(with publicKeyShare: bkey_ios_sdk.secp256k1.KeyAgreement.PublicKey, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws -> bkey_ios_sdk.SharedSecret
+}
 
 
+extension bkey_ios_sdk.secp256k1.Signing {
+  public struct ECDSASignature : Foundation.ContiguousBytes {
+    public var dataRepresentation: Foundation.Data
+    public init<D>(dataRepresentation: D) throws where D : Foundation.DataProtocol
+    public init<D>(derRepresentation: D) throws where D : Foundation.DataProtocol
+    public init<D>(compactRepresentation: D) throws where D : Foundation.DataProtocol
+    public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
+    #if compiler(>=5.3) && $EffectfulProp
+    public var compactRepresentation: Foundation.Data {
+      get throws
+    }
+    #endif
+    #if compiler(>=5.3) && $EffectfulProp
+    public var derRepresentation: Foundation.Data {
+      get throws
+    }
+    #endif
+  }
+}
+extension bkey_ios_sdk.secp256k1.Signing.PrivateKey {
+  public func signature<D>(for digest: D) throws -> bkey_ios_sdk.secp256k1.Signing.ECDSASignature where D : bkey_ios_sdk.Digest
+}
+extension bkey_ios_sdk.secp256k1.Signing.PrivateKey {
+  public func signature<D>(for data: D) throws -> bkey_ios_sdk.secp256k1.Signing.ECDSASignature where D : Foundation.DataProtocol
+}
+extension bkey_ios_sdk.secp256k1.Signing.PublicKey {
+  public func isValidSignature<D>(_ signature: bkey_ios_sdk.secp256k1.Signing.ECDSASignature, for digest: D) -> Swift.Bool where D : bkey_ios_sdk.Digest
+}
+extension bkey_ios_sdk.secp256k1.Signing.PublicKey {
+  public func isValidSignature<D>(_ signature: bkey_ios_sdk.secp256k1.Signing.ECDSASignature, for data: D) -> Swift.Bool where D : Foundation.DataProtocol
+}
+public protocol Digest : Foundation.ContiguousBytes, Swift.CustomStringConvertible, Swift.Hashable, Swift.Sequence where Self.Element == Swift.UInt8 {
+  static var byteCount: Swift.Int { get }
+}
+extension bkey_ios_sdk.Digest {
+  public func makeIterator() -> Swift.Array<Swift.UInt8>.Iterator
+}
+extension bkey_ios_sdk.Digest {
+  public static func == (lhs: Self, rhs: Self) -> Swift.Bool
+  public static func == <D>(lhs: Self, rhs: D) -> Swift.Bool where D : Foundation.DataProtocol
+  public var description: Swift.String {
+    get
+  }
+}
+
+public enum secp256k1 {
+}
+extension bkey_ios_sdk.secp256k1 {
+  public enum Format : Swift.UInt32 {
+    case compressed
+    case uncompressed
+    public var length: Swift.Int {
+      get
+    }
+    public var rawValue: Swift.UInt32 {
+      get
+    }
+    public init?(rawValue: Swift.UInt32)
+    public typealias RawValue = Swift.UInt32
+  }
+}
+extension bkey_ios_sdk.secp256k1 {
+  @usableFromInline
+  internal enum ByteLength {
+    @inlinable internal static var dimension: Swift.Int {
+      get { 32 }
+    }
+    @inlinable internal static var privateKey: Swift.Int {
+      get { 32 }
+    }
+    @inlinable internal static var signature: Swift.Int {
+      get { 64 }
+    }
+  }
+}
+@usableFromInline
+internal struct PrivateKeyImplementation {
+  @usableFromInline
+  internal let publicBytes: [Swift.UInt8]
+  @usableFromInline
+  internal let xonlyBytes: [Swift.UInt8]
+  @usableFromInline
+  internal let format: bkey_ios_sdk.secp256k1.Format
+  @usableFromInline
+  internal var keyParity: Swift.Int32
+  @usableFromInline
+  internal var publicKey: bkey_ios_sdk.PublicKeyImplementation {
+    get
+  }
+  #if compiler(>=5.3) && $EffectfulProp
+  @usableFromInline
+  internal var negation: bkey_ios_sdk.PrivateKeyImplementation {
+    get throws
+  }
+  #endif
+  @usableFromInline
+  internal var dataRepresentation: Foundation.Data {
+    get
+  }
+  @usableFromInline
+  internal init(format: bkey_ios_sdk.secp256k1.Format = .compressed) throws
+}
+@usableFromInline
+internal struct PublicKeyImplementation {
+  @usableFromInline
+  internal let bytes: [Swift.UInt8]
+  @usableFromInline
+  internal let xonlyBytes: [Swift.UInt8]
+  @usableFromInline
+  internal let keyParity: Swift.Int32
+  @usableFromInline
+  internal let format: bkey_ios_sdk.secp256k1.Format
+  @usableFromInline
+  internal var xonly: bkey_ios_sdk.XonlyKeyImplementation {
+    get
+  }
+  @usableFromInline
+  internal var dataRepresentation: Foundation.Data {
+    get
+  }
+  @usableFromInline
+  internal var rawRepresentation: secp256k1.secp256k1_pubkey {
+    get
+  }
+  #if compiler(>=5.3) && $EffectfulProp
+  @usableFromInline
+  internal var negation: bkey_ios_sdk.PublicKeyImplementation {
+    get throws
+  }
+  #endif
+  @usableFromInline
+  internal init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format) throws where D : Foundation.ContiguousBytes
+  @usableFromInline
+  internal init(_ bytes: [Swift.UInt8], xonly: [Swift.UInt8], keyParity: Swift.Int32, format: bkey_ios_sdk.secp256k1.Format)
+  @usableFromInline
+  internal init(xonlyKey: bkey_ios_sdk.XonlyKeyImplementation)
+  @usableFromInline
+  internal init<D>(_ digest: D, signature: bkey_ios_sdk.secp256k1.Recovery.ECDSASignature, format: bkey_ios_sdk.secp256k1.Format) throws where D : bkey_ios_sdk.Digest
+}
+@usableFromInline
+internal struct XonlyKeyImplementation {
+  @usableFromInline
+  internal let bytes: [Swift.UInt8]
+  @usableFromInline
+  internal var dataRepresentation: Foundation.Data {
+    get
+  }
+  @usableFromInline
+  internal var rawRepresentation: secp256k1.secp256k1_xonly_pubkey {
+    get
+  }
+  @usableFromInline
+  internal let keyParity: Swift.Int32
+  @usableFromInline
+  internal init<D>(dataRepresentation data: D, keyParity: Swift.Int32) where D : Foundation.ContiguousBytes
+  @usableFromInline
+  internal init(_ bytes: [Swift.UInt8], keyParity: Swift.Int32)
+}
+extension bkey_ios_sdk.secp256k1 {
+  public enum Recovery {
+    public struct PrivateKey : Swift.Equatable {
+      public var publicKey: bkey_ios_sdk.secp256k1.Recovery.PublicKey {
+        get
+      }
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      public init(format: bkey_ios_sdk.secp256k1.Format = .compressed) throws
+      public init<D>(dataRepresentation data: D, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : Foundation.ContiguousBytes
+      public static func == (lhs: bkey_ios_sdk.secp256k1.Recovery.PrivateKey, rhs: bkey_ios_sdk.secp256k1.Recovery.PrivateKey) -> Swift.Bool
+    }
+    public struct PublicKey {
+      public var dataRepresentation: Foundation.Data {
+        get
+      }
+      public var rawRepresentation: secp256k1.secp256k1_pubkey {
+        get
+      }
+      public init<D>(_ data: D, signature: bkey_ios_sdk.secp256k1.Recovery.ECDSASignature, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : Foundation.DataProtocol
+      public init<D>(_ digest: D, signature: bkey_ios_sdk.secp256k1.Recovery.ECDSASignature, format: bkey_ios_sdk.secp256k1.Format = .compressed) throws where D : bkey_ios_sdk.Digest
+    }
+  }
+}
+extension bkey_ios_sdk.secp256k1.Recovery {
+  public struct ECDSACompactSignature {
+    public let signature: Foundation.Data
+    public let recoveryId: Swift.Int32
+  }
+  public struct ECDSASignature : Foundation.ContiguousBytes {
+    public var dataRepresentation: Foundation.Data
+    #if compiler(>=5.3) && $EffectfulProp
+    public var compactRepresentation: bkey_ios_sdk.secp256k1.Recovery.ECDSACompactSignature {
+      get throws
+    }
+    #endif
+    #if compiler(>=5.3) && $EffectfulProp
+    public var normalize: bkey_ios_sdk.secp256k1.Signing.ECDSASignature {
+      get throws
+    }
+    #endif
+    public init<D>(dataRepresentation: D) throws where D : Foundation.DataProtocol
+    public init<D>(compactRepresentation: D, recoveryId: Swift.Int32) throws where D : Foundation.DataProtocol
+    public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
+  }
+}
+extension bkey_ios_sdk.secp256k1.Recovery.PrivateKey {
+  public typealias Signature = bkey_ios_sdk.secp256k1.Recovery.ECDSASignature
+  public func signature<D>(for digest: D) throws -> bkey_ios_sdk.secp256k1.Recovery.PrivateKey.Signature where D : bkey_ios_sdk.Digest
+}
+extension bkey_ios_sdk.secp256k1.Recovery.PrivateKey {
+  public func signature<D>(for data: D) throws -> bkey_ios_sdk.secp256k1.Recovery.PrivateKey.Signature where D : Foundation.DataProtocol
+}
+extension bkey_ios_sdk.secp256k1 {
+  public enum Schnorr {
+    @inlinable internal static var magic: (Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8) {
+      get { (218, 111, 179, 140) }
+    }
+  }
+}
+extension bkey_ios_sdk.secp256k1.Schnorr {
+  public struct PrivateKey : Swift.Equatable {
+    public var xonly: bkey_ios_sdk.secp256k1.Schnorr.XonlyKey {
+      get
+    }
+    public var dataRepresentation: Foundation.Data {
+      get
+    }
+    #if compiler(>=5.3) && $EffectfulProp
+    public var negation: bkey_ios_sdk.secp256k1.Schnorr.PrivateKey {
+      get throws
+    }
+    #endif
+    public init() throws
+    public init<D>(dataRepresentation data: D) throws where D : Foundation.ContiguousBytes
+    public static func == (lhs: bkey_ios_sdk.secp256k1.Schnorr.PrivateKey, rhs: bkey_ios_sdk.secp256k1.Schnorr.PrivateKey) -> Swift.Bool
+  }
+  public struct XonlyKey : Swift.Equatable {
+    public var bytes: [Swift.UInt8] {
+      get
+    }
+    public var parity: Swift.Bool {
+      get
+    }
+    public init<D>(dataRepresentation data: D, keyParity: Swift.Int32 = 0) where D : Foundation.ContiguousBytes
+    public static func == (lhs: bkey_ios_sdk.secp256k1.Schnorr.XonlyKey, rhs: bkey_ios_sdk.secp256k1.Schnorr.XonlyKey) -> Swift.Bool
+  }
+}
+extension bkey_ios_sdk.secp256k1.Schnorr {
+  public struct SchnorrSignature : Foundation.ContiguousBytes {
+    public var dataRepresentation: Foundation.Data
+    public init<D>(dataRepresentation: D) throws where D : Foundation.DataProtocol
+    public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
+  }
+}
+extension bkey_ios_sdk.secp256k1.Schnorr.PrivateKey {
+  public func signature<D>(for data: D) throws -> bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature where D : Foundation.DataProtocol
+  public func signature<D>(for digest: D) throws -> bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature where D : bkey_ios_sdk.Digest
+  public func signature<D>(for data: D, auxiliaryRand: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature where D : Foundation.DataProtocol
+  public func signature<D>(for digest: D, auxiliaryRand: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature where D : bkey_ios_sdk.Digest
+  public func signature(message: inout [Swift.UInt8], auxiliaryRand: Swift.UnsafeMutableRawPointer?, strict: Swift.Bool = false) throws -> bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature
+}
+extension bkey_ios_sdk.secp256k1.Schnorr.XonlyKey {
+  public func isValidSignature<D>(_ signature: bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature, for data: D) -> Swift.Bool where D : Foundation.DataProtocol
+  public func isValidSignature<D>(_ signature: bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature, for digest: D) -> Swift.Bool where D : bkey_ios_sdk.Digest
+  public func isValid(_ signature: bkey_ios_sdk.secp256k1.Schnorr.SchnorrSignature, for message: inout [Swift.UInt8]) -> Swift.Bool
+}
 
 extension SwiftUI.View {
   public func lazyPop(isEnabled: (SwiftUI.Binding<Swift.Bool>)? = nil) -> some SwiftUI.View
   
 }
+extension bkey_ios_sdk.secp256k1.Signing.PrivateKey {
+  public func add(_ tweak: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Signing.PrivateKey
+  public func add(xonly tweak: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Signing.PrivateKey
+  public func multiply(_ tweak: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Signing.PrivateKey
+}
+extension bkey_ios_sdk.secp256k1.Signing.PublicKey {
+  public func add(_ tweak: [Swift.UInt8], format: bkey_ios_sdk.secp256k1.Format = .compressed) throws -> bkey_ios_sdk.secp256k1.Signing.PublicKey
+  public func multiply(_ tweak: [Swift.UInt8], format: bkey_ios_sdk.secp256k1.Format = .compressed) throws -> bkey_ios_sdk.secp256k1.Signing.PublicKey
+}
+extension bkey_ios_sdk.secp256k1.Schnorr.XonlyKey {
+  public func add(_ tweak: [Swift.UInt8]) throws -> bkey_ios_sdk.secp256k1.Schnorr.XonlyKey
+}
 
+public struct SharedSecret : Foundation.ContiguousBytes {
+  public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
+}
+extension bkey_ios_sdk.SharedSecret : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension bkey_ios_sdk.SharedSecret : Swift.CustomStringConvertible, Swift.Equatable {
+  public static func == (lhs: bkey_ios_sdk.SharedSecret, rhs: bkey_ios_sdk.SharedSecret) -> Swift.Bool
+  public static func == <D>(lhs: bkey_ios_sdk.SharedSecret, rhs: D) -> Swift.Bool where D : Foundation.DataProtocol
+  public var description: Swift.String {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
@@ -124,5 +571,10 @@ extension bkey_ios_sdk.PublicKey {
 extension bkey_ios_sdk.PublicKey : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
+extension bkey_ios_sdk.secp256k1Error : Swift.Equatable {}
+extension bkey_ios_sdk.secp256k1Error : Swift.Hashable {}
 extension bkey_ios_sdk.CallbackType : Swift.Equatable {}
 extension bkey_ios_sdk.CallbackType : Swift.Hashable {}
+extension bkey_ios_sdk.secp256k1.Format : Swift.Equatable {}
+extension bkey_ios_sdk.secp256k1.Format : Swift.Hashable {}
+extension bkey_ios_sdk.secp256k1.Format : Swift.RawRepresentable {}

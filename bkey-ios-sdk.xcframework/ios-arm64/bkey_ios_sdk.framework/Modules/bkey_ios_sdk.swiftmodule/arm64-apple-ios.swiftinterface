@@ -66,101 +66,12 @@ extension bkey_ios_sdk.Bkey {
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func GetCryptoSeedPhrase() throws
 }
-extension Foundation.ContiguousBytes {
-  @inlinable internal var bytes: [Swift.UInt8] {
-    get {
-        withUnsafeBytes { bytesPtr in Array(bytesPtr) }
-    }
-  }
-}
-extension Foundation.Data {
-  @inlinable internal var bytes: [Swift.UInt8] {
-    get {
-        withUnsafeBytes { bytesPtr in Array(bytesPtr) }
-    }
-  }
-}
 
 
 
 
 
-@usableFromInline
-internal struct PrivateKeyImplementation {
-  @usableFromInline
-  internal let publicBytes: [Swift.UInt8]
-  @usableFromInline
-  internal let xonlyBytes: [Swift.UInt8]
-  @usableFromInline
-  internal var keyParity: Swift.Int32
-  @usableFromInline
-  internal var publicKey: bkey_ios_sdk.PublicKeyImplementation {
-    get
-  }
-  #if compiler(>=5.3) && $EffectfulProp
-  @usableFromInline
-  internal var negation: bkey_ios_sdk.PrivateKeyImplementation {
-    get throws
-  }
-  #endif
-  @usableFromInline
-  internal var dataRepresentation: Foundation.Data {
-    get
-  }
-}
-@usableFromInline
-internal struct PublicKeyImplementation {
-  @usableFromInline
-  internal let bytes: [Swift.UInt8]
-  @usableFromInline
-  internal let xonlyBytes: [Swift.UInt8]
-  @usableFromInline
-  internal let keyParity: Swift.Int32
-  @usableFromInline
-  internal var xonly: bkey_ios_sdk.XonlyKeyImplementation {
-    get
-  }
-  @usableFromInline
-  internal var dataRepresentation: Foundation.Data {
-    get
-  }
-  @usableFromInline
-  internal var rawRepresentation: secp256k1.secp256k1_pubkey {
-    get
-  }
-  #if compiler(>=5.3) && $EffectfulProp
-  @usableFromInline
-  internal var negation: bkey_ios_sdk.PublicKeyImplementation {
-    get throws
-  }
-  #endif
-  @usableFromInline
-  internal init(xonlyKey: bkey_ios_sdk.XonlyKeyImplementation)
-}
-@usableFromInline
-internal struct XonlyKeyImplementation {
-  @usableFromInline
-  internal let bytes: [Swift.UInt8]
-  @usableFromInline
-  internal var dataRepresentation: Foundation.Data {
-    get
-  }
-  @usableFromInline
-  internal var rawRepresentation: secp256k1.secp256k1_xonly_pubkey {
-    get
-  }
-  @usableFromInline
-  internal let keyParity: Swift.Int32
-  @usableFromInline
-  internal init<D>(dataRepresentation data: D, keyParity: Swift.Int32) where D : Foundation.ContiguousBytes
-  @usableFromInline
-  internal init(_ bytes: [Swift.UInt8], keyParity: Swift.Int32)
-}
 
-extension SwiftUI.View {
-  public func lazyPop(isEnabled: (SwiftUI.Binding<Swift.Bool>)? = nil) -> some SwiftUI.View
-  
-}
 
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)

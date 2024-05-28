@@ -6289,10 +6289,129 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 244,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
       "kind": "StringLiteral",
-      "offset": 265,
-      "length": 15,
-      "value": "\"Hello, World!\""
+      "offset": 586,
+      "length": 14,
+      "value": "\"chevron.left\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 668,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 6,
+      "value": "\"plus\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 900,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 12,
+      "value": "\"Identities\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1234,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 1928,
+      "length": 23,
+      "value": "\"Selected method found\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2104,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 19,
+      "value": "\"Verifying user...\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 2886,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3018,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 3398,
+      "length": 20,
+      "value": "\"Verification Error\""
     },
     {
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_E7C017FAC02EFC4848EAF4CEB812DEB3Ll7PreviewfMf0_.swift",
@@ -6305,13 +6424,13 @@
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_E7C017FAC02EFC4848EAF4CEB812DEB3Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
-      "length": 2,
-      "value": "19"
+      "length": 3,
+      "value": "105"
     },
     {
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_E7C017FAC02EFC4848EAF4CEB812DEB3Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 334,
       "length": 1,
       "value": "1"
     },
@@ -10904,216 +11023,216 @@
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
       "offset": 905,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 945,
+      "offset": 946,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 987,
+      "offset": 988,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1197,
       "length": 10,
       "value": "\"Continue\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1247,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1270,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1312,
+      "offset": 1313,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 1565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1760,
       "length": 9,
       "value": "\"in here\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1811,
+      "offset": 1812,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1834,
       "length": 38,
       "value": "\"name is good display the next screen\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1913,
+      "offset": 1914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2241,
+      "offset": 2242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2355,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2400,
+      "offset": 2401,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2429,
+      "offset": 2430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2486,
+      "offset": 2487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 3997,
+      "offset": 3998,
       "length": 37,
       "value": "\"user\/v1\/create-user-from-framework\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4061,
+      "offset": 4062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 4860,
+      "offset": 4861,
       "length": 30,
       "value": "\"auth\/v1\/set-user-public-key\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4920,
+      "offset": 4921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5071,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5128,
+      "offset": 5129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 5562,
+      "offset": 5563,
       "length": 26,
       "value": "\"Create Identity Failure:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 5806,
+      "offset": 5807,
       "length": 29,
       "value": "\"Adding identity to keychain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 5856,
+      "offset": 5857,
       "length": 18,
       "value": "\"Identity length \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "Array",
-      "offset": 5992,
+      "offset": 5993,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 6375,
+      "offset": 6376,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 6409,
+      "offset": 6410,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 6459,
+      "offset": 6460,
       "length": 14,
       "value": "\"Save success\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateIdentityView.swift",
       "kind": "StringLiteral",
-      "offset": 6529,
+      "offset": 6530,
       "length": 35,
       "value": "\"Error storing identities to chain\""
     },
@@ -11505,98 +11624,133 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 354,
-      "length": 1,
-      "value": "2"
+      "offset": 505,
+      "length": 2,
+      "value": "40"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 1,
-      "value": "1"
+      "offset": 516,
+      "length": 2,
+      "value": "40"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 558,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
-      "kind": "FloatLiteral",
-      "offset": 537,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 1014,
+      "offset": 746,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 1384,
+      "offset": 867,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 1655,
+      "offset": 988,
+      "length": 2,
+      "value": "66"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1085,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1225,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1280,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "FloatLiteral",
+      "offset": 1291,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1559,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "StringLiteral",
-      "offset": 1717,
+      "offset": 1569,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "StringLiteral",
-      "offset": 1729,
+      "offset": 1581,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1599,
       "length": 10,
       "value": "\"avatar_1\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 1777,
+      "offset": 1629,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/Identity.swift",
       "kind": "IntegerLiteral",
-      "offset": 1855,
+      "offset": 1707,
       "length": 2,
       "value": "85"
     },
@@ -11694,196 +11848,196 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 389,
       "length": 19,
       "value": "\"launch_background\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 465,
+      "offset": 548,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 508,
+      "offset": 591,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 574,
+      "offset": 657,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 580,
+      "offset": 663,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 789,
       "length": 16,
       "value": "\"bkey_logo_full\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 875,
       "length": 3,
       "value": "124"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 805,
+      "offset": 888,
       "length": 2,
       "value": "67"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "StringLiteral",
-      "offset": 914,
+      "offset": 997,
       "length": 39,
       "value": "\"Navigating Trust in a Deceptive World\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1023,
+      "offset": 1106,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 1270,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1363,
       "length": 8,
       "value": "\"Log In\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1318,
+      "offset": 1401,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1334,
+      "offset": 1417,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1358,
+      "offset": 1441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1399,
+      "offset": 1482,
       "length": 3,
       "value": "350"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1411,
+      "offset": 1494,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1453,
+      "offset": 1536,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "StringLiteral",
-      "offset": 1545,
+      "offset": 1628,
       "length": 16,
       "value": "\"Create Account\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1592,
+      "offset": 1675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1608,
+      "offset": 1691,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1632,
+      "offset": 1715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1673,
+      "offset": 1756,
       "length": 3,
       "value": "350"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1685,
+      "offset": 1768,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1835,
+      "offset": 2003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1975,
+      "offset": 2143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2081,
+      "offset": 2249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2111,
+      "offset": 2279,
       "length": 4,
       "value": "true"
     },
@@ -11899,7 +12053,7 @@
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 2,
-      "value": "60"
+      "value": "63"
     },
     {
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_E7EB1252D03F095C6E4322D22EEB0916Ll7PreviewfMf0_.swift",
@@ -12401,7 +12555,7 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/IdentityList.swift",
       "kind": "IntegerLiteral",
-      "offset": 621,
+      "offset": 646,
       "length": 2,
       "value": "80"
     },
@@ -12417,7 +12571,7 @@
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 2,
-      "value": "29"
+      "value": "30"
     },
     {
       "filePath": "@__swiftmacro_12bkey_ios_sdk33_D2A496ED6BC54DD8EA0B7F522AFDAA58Ll7PreviewfMf0_.swift",

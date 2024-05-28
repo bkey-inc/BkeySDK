@@ -7,6 +7,7 @@ import Combine
 import CoreData
 import CoreNFC
 import CryptoKit
+import DeveloperToolsSupport
 import Foundation
 import Swift
 import SwiftUI
@@ -47,9 +48,11 @@ public enum CallbackType {
 }
 extension bkey_ios_sdk.Bkey {
   #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize(authToken: Swift.String, callback: @escaping (_ type: bkey_ios_sdk.CallbackType, _ userId: Swift.String, _ displayName: Swift.String, _ authToken: Swift.String) -> Swift.Void) async throws
+  public func Initialize(authToken: Swift.String, callback: @escaping (_ type: bkey_ios_sdk.CallbackType, _ userId: Swift.String, _ displayName: Swift.String, _ authToken: Swift.String, _ displayImage: Swift.String) -> Swift.Void) async throws
   #endif
   public func CloseSession() throws
+  public func DisplayLaunchScreen() -> some SwiftUI.View
+  
   public func Authenticate() -> some SwiftUI.View
   
   public func VerifyCurrentUserBiometrics(callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
@@ -65,6 +68,9 @@ extension bkey_ios_sdk.Bkey {
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func GetCryptoSeedPhrase() throws
 }
+
+
+
 
 
 

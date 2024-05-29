@@ -7647,155 +7647,176 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
+      "kind": "FloatLiteral",
+      "offset": 1448,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1572,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1504,
+      "offset": 1729,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1510,
+      "offset": 1735,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1913,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2064,
+      "offset": 2289,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2147,
+      "offset": 2372,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 2458,
+      "offset": 2683,
       "length": 6,
       "value": "\"Done\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "BooleanLiteral",
-      "offset": 2524,
+      "offset": 2749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2739,
+      "offset": 2964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3101,
+      "offset": 3326,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3301,
+      "offset": 3526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3324,
+      "offset": 3549,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 3668,
       "length": 35,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3687,
       "length": 1,
       "value": "\" \/ \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 3477,
+      "offset": 3702,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3559,
+      "offset": 3784,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 4005,
+      "offset": 4230,
       "length": 72,
       "value": "\"kjhsdf kjhsdf kjhsdf kjhsdflkjsdf lkjsdf lksdjf lkjsdf sdfsdf sdf sdf \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 4090,
+      "offset": 4315,
       "length": 4,
       "value": "\"at\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 4333,
       "length": 13,
       "value": "\"Placeholder\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 4133,
+      "offset": 4358,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "BooleanLiteral",
-      "offset": 4159,
+      "offset": 4384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
       "kind": "IntegerLiteral",
-      "offset": 4195,
+      "offset": 4420,
       "length": 2,
       "value": "60"
     },

@@ -12597,112 +12597,98 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 2362,
+      "offset": 2369,
       "length": 2,
-      "value": "30"
+      "value": "50"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 2373,
+      "offset": 2380,
       "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2652,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2798,
-      "length": 3,
-      "value": "150"
+      "value": "50"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 6294,
+      "offset": 6035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 6391,
+      "offset": 6132,
       "length": 21,
       "value": "\"byte[1024] = 0x%02x\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6427,
+      "offset": 6168,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6570,
+      "offset": 6311,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 6827,
+      "offset": 6568,
       "length": 26,
       "value": "\"On Liveness Check Passed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 6885,
+      "offset": 6626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6959,
+      "offset": 6700,
       "length": 11,
       "value": "250000000"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7134,
+      "offset": 6875,
       "length": 19,
       "value": "\"Running loadImage\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7693,
+      "offset": 7434,
       "length": 37,
       "value": "\"image width = %d, image height = %d\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 7938,
+      "offset": 7679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7965,
+      "offset": 7706,
       "length": 28,
       "value": "\"Features extraction failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 8039,
+      "offset": 7780,
       "length": 24,
       "value": "\"Features length = %d\n\""
     },
@@ -12793,434 +12779,448 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3117,
+      "offset": 1300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1438,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3186,
+      "offset": 1636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 3241,
+      "offset": 1691,
       "length": 34,
       "value": "\"Please keep face inside the oval\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 3449,
+      "offset": 1899,
       "length": 32,
       "value": "\"Start liveness detection logic\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3718,
+      "offset": 2168,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3777,
+      "offset": 2227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 3858,
+      "offset": 2308,
       "length": 57,
       "value": "\"In livenessDetection, pauseCamera = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 2364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 4065,
+      "offset": 2515,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4661,
+      "offset": 3111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4713,
+      "offset": 3163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4910,
+      "offset": 3360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5066,
+      "offset": 3516,
       "length": 83,
       "value": "\"pauseCamera = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5095,
+      "offset": 3545,
       "length": 1,
       "value": "\", livenessPassed = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5148,
+      "offset": 3598,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 3871,
       "length": 36,
       "value": "\"Invalid face presentation detected\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5546,
+      "offset": 3996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5668,
+      "offset": 4118,
       "length": 67,
       "value": "\"liveness is done with result : \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 5734,
+      "offset": 4184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5931,
+      "offset": 4381,
       "length": 6,
       "value": "700000"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6152,
+      "offset": 4602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 6220,
+      "offset": 4670,
       "length": 34,
       "value": "\"Please keep face inside the oval\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6308,
+      "offset": 4758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6725,
+      "offset": 5175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8399,
+      "offset": 6849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 7762,
+      "offset": 6212,
       "length": 11,
       "value": "\"bkey_ios_sdk.Coordinator\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9567,
+      "offset": 8017,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9707,
+      "offset": 8157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10258,
+      "offset": 8708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10287,
+      "offset": 8737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10432,
+      "offset": 8882,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11497,
+      "offset": 9947,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11529,
+      "offset": 9979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 11557,
+      "offset": 10007,
       "length": 56,
       "value": "\"No TrueDepth camera detected, only use regular camera.\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12825,
+      "offset": 11275,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13380,
+      "offset": 11830,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13512,
+      "offset": 11962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 13573,
+      "offset": 12023,
       "length": 39,
       "value": "\"No AVCaptureConnection for depthData \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13650,
+      "offset": 12100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 14081,
+      "offset": 12531,
       "length": 46,
       "value": "\"Device does not support Float32 depth format\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14165,
+      "offset": 12615,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 14279,
+      "offset": 12729,
       "length": 46,
       "value": "\"Device does not support Float32 depth format\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14400,
+      "offset": 12850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 15051,
+      "offset": 13501,
       "length": 51,
       "value": "\"Could not lock device for configuration: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 15101,
+      "offset": 13551,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 15347,
+      "offset": 13797,
       "length": 29,
       "value": "\"outputSynchronizer delegate\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 15487,
+      "offset": 13937,
       "length": 24,
       "value": "\"sample buffer delegate\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16054,
+      "offset": 14504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16531,
+      "offset": 14981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16840,
+      "offset": 15290,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17317,
+      "offset": 15767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18957,
+      "offset": 17407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "FloatLiteral",
-      "offset": 19141,
+      "offset": 17591,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19211,
+      "offset": 17661,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19516,
+      "offset": 17966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19987,
+      "offset": 18437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20694,
+      "offset": 19144,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20781,
+      "offset": 19231,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20877,
+      "offset": 19327,
       "length": 3,
       "value": "350"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20889,
+      "offset": 19339,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 20923,
+      "offset": 19373,
       "length": 6,
       "value": "\"Scan\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20998,
+      "offset": 19448,
       "length": 2,
       "value": "18"
     },

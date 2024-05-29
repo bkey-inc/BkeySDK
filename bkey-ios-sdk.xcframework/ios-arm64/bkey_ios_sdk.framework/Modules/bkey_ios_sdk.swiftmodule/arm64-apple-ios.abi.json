@@ -7706,7 +7706,7 @@
       "kind": "IntegerLiteral",
       "offset": 2327,
       "length": 2,
-      "value": "60"
+      "value": "20"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/InputField.swift",
@@ -12102,7 +12102,7 @@
       "kind": "IntegerLiteral",
       "offset": 1602,
       "length": 2,
-      "value": "10"
+      "value": "20"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",
@@ -12144,7 +12144,7 @@
       "kind": "IntegerLiteral",
       "offset": 1895,
       "length": 2,
-      "value": "10"
+      "value": "20"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/LaunchScreen.swift",

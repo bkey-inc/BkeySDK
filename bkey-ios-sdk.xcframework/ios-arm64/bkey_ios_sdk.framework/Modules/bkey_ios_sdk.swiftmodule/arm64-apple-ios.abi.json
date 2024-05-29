@@ -12541,84 +12541,84 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 5081,
+      "offset": 1826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 1923,
       "length": 21,
       "value": "\"byte[1024] = 0x%02x\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 5214,
+      "offset": 1959,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 5357,
+      "offset": 2102,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 5614,
+      "offset": 2359,
       "length": 26,
       "value": "\"On Liveness Check Passed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 5672,
+      "offset": 2417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 5746,
+      "offset": 2491,
       "length": 11,
       "value": "250000000"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 2666,
       "length": 19,
       "value": "\"Running loadImage\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 6480,
+      "offset": 3225,
       "length": 37,
       "value": "\"image width = %d, image height = %d\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6725,
+      "offset": 3470,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 6752,
+      "offset": 3497,
       "length": 28,
       "value": "\"Features extraction failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/BkeyFaceVerification.swift",
       "kind": "StringLiteral",
-      "offset": 6826,
+      "offset": 3571,
       "length": 24,
       "value": "\"Features length = %d\n\""
     },

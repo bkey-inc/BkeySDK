@@ -33,6 +33,7 @@ public enum BkeyException : Swift.Error {
   case FrameworkError(Swift.String)
 }
 
+
 public enum CallbackType {
   case IdentityCreated
   case IdentityVerified
@@ -57,6 +58,13 @@ extension bkey_ios_sdk.Bkey {
   
   public func VerifyCurrentUserBiometrics(callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
   
+  public func CreateAccount(name: Swift.String, callback: @escaping (Swift.String, Swift.String) -> Swift.Void) -> some SwiftUI.View
+  
+  public func Login(identityId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void) -> some SwiftUI.View
+  
+  public struct Identity {
+  }
+  public func GetIdentities() -> [bkey_ios_sdk.Bkey.Identity]
   public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
   public func SignString(value: Swift.String) throws -> Foundation.Data
   public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data) throws -> Swift.Bool

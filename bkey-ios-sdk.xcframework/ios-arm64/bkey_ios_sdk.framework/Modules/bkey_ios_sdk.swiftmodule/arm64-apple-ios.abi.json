@@ -545,8 +545,28 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "bkey_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "bkey_ios_sdk",
         "declAttributes": [
@@ -1084,6 +1104,204 @@
             "declAttributes": [
               "Custom"
             ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "CreateAccount",
+            "printedName": "CreateAccount(name:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>, bkey_ios_sdk.CreateAccountView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyNotVerified",
+                        "printedName": "bkey_ios_sdk.BkeyNotVerified",
+                        "usr": "s:12bkey_ios_sdk15BkeyNotVerifiedV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyPermissionsNeeded",
+                        "printedName": "bkey_ios_sdk.BkeyPermissionsNeeded",
+                        "usr": "s:12bkey_ios_sdk21BkeyPermissionsNeededV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreateAccountView",
+                    "printedName": "bkey_ios_sdk.CreateAccountView",
+                    "usr": "s:12bkey_ios_sdk17CreateAccountViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC13CreateAccount4name8callbackQrSS_ySS_SStctF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC13CreateAccount4name8callbackQrSS_ySS_SStctF",
+            "moduleName": "bkey_ios_sdk",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Login",
+            "printedName": "Login(identityId:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>, bkey_ios_sdk.NewLoginView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<bkey_ios_sdk.BkeyNotVerified, bkey_ios_sdk.BkeyPermissionsNeeded>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyNotVerified",
+                        "printedName": "bkey_ios_sdk.BkeyNotVerified",
+                        "usr": "s:12bkey_ios_sdk15BkeyNotVerifiedV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BkeyPermissionsNeeded",
+                        "printedName": "bkey_ios_sdk.BkeyPermissionsNeeded",
+                        "usr": "s:12bkey_ios_sdk21BkeyPermissionsNeededV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NewLoginView",
+                    "printedName": "bkey_ios_sdk.NewLoginView",
+                    "usr": "s:12bkey_ios_sdk12NewLoginViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC5Login10identityId8callbackQrSS_ySSctF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC5Login10identityId8callbackQrSS_ySSctF",
+            "moduleName": "bkey_ios_sdk",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Identity",
+            "printedName": "Identity",
+            "declKind": "Struct",
+            "usr": "s:12bkey_ios_sdk4BkeyC8IdentityV",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC8IdentityV",
+            "moduleName": "bkey_ios_sdk",
+            "isFromExtension": true
+          },
+          {
+            "kind": "Function",
+            "name": "GetIdentities",
+            "printedName": "GetIdentities()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[bkey_ios_sdk.Bkey.Identity]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identity",
+                    "printedName": "bkey_ios_sdk.Bkey.Identity",
+                    "usr": "s:12bkey_ios_sdk4BkeyC8IdentityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12bkey_ios_sdk4BkeyC13GetIdentitiesSayAC8IdentityVGyF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC13GetIdentitiesSayAC8IdentityVGyF",
+            "moduleName": "bkey_ios_sdk",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4909,6 +5127,216 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 2205,
+      "length": 10,
+      "value": "\"avatar_1\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 2409,
+      "length": 37,
+      "value": "\"user\/v1\/create-user-from-framework\/\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 3272,
+      "length": 30,
+      "value": "\"auth\/v1\/set-user-public-key\/\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 3474,
+      "length": 8,
+      "value": "\"Active\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 3498,
+      "length": 10,
+      "value": "\"avatar_1\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3528,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 3910,
+      "length": 26,
+      "value": "\"Create Identity Failure:\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 29,
+      "value": "\"Adding identity to keychain\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4204,
+      "length": 18,
+      "value": "\"Identity length \""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "Array",
+      "offset": 4340,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4723,
+      "length": 23,
+      "value": "\"bkey-identity-service\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4757,
+      "length": 12,
+      "value": "\"identities\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4807,
+      "length": 14,
+      "value": "\"Save success\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4877,
+      "length": 35,
+      "value": "\"Error storing identities to chain\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
+      "kind": "StringLiteral",
+      "offset": 5314,
+      "length": 9,
+      "value": "\"example\""
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_1CC9C8BD127D9EFC5550D1FFB8E6A067Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 38,
+      "value": "\"bkey_ios_sdk\/CreateAccountView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_1CC9C8BD127D9EFC5550D1FFB8E6A067Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_1CC9C8BD127D9EFC5550D1FFB8E6A067Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_12bkey_ios_sdk33_1CC9C8BD127D9EFC5550D1FFB8E6A067Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 9,
+      "value": "\"example\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 1097,
+      "length": 19,
+      "value": "\"Verifying user...\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1826,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
+      "kind": "StringLiteral",
+      "offset": 2107,
+      "length": 20,
+      "value": "\"Verification Error\""
+    },
+    {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/Components\/IconButton.swift",
       "kind": "FloatLiteral",
       "offset": 837,
@@ -5120,15 +5548,22 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
+      "kind": "Array",
+      "offset": 6898,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 6302,
+      "offset": 7443,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 8873,
+      "offset": 10014,
       "length": 1,
       "value": "0"
     },
@@ -13430,7 +13865,7 @@
     {
       "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/bkey-ios-sdk-fjurmvclabbnwrhamthcazuzkjjc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/bkey-ios-sdk\/IntermediateBuildFilesPath\/bkey-ios-sdk.build\/Release-iphoneos\/bkey-ios-sdk.build\/DerivedSources\/CoreDataGenerated\/PublicKeyStoreDataModel\/PublicKey+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 354,
       "length": 11,
       "value": "\"PublicKey\""
     },

@@ -75,6 +75,12 @@ extension bkey_ios_sdk.Bkey {
   public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func GetCryptoSeedPhrase() throws
+  #if compiler(>=5.3) && $AsyncAwait
+  public func enableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func disableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
+  #endif
 }
 
 

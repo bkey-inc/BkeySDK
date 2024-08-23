@@ -81,6 +81,9 @@ extension bkey_ios_sdk.Bkey {
   #if compiler(>=5.3) && $AsyncAwait
   public func disableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func enrollForVideoVerification(lobbyId: Swift.String, clientId: Swift.String, entropy: Swift.String) async throws
+  #endif
 }
 
 

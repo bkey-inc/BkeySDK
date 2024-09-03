@@ -5770,28 +5770,21 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 13582,
-      "length": 3,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 14063,
+      "offset": 13918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 14338,
+      "offset": 14187,
       "length": 29,
       "value": "\"verification\/v1\/enroll-user\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14428,
+      "offset": 14277,
       "length": 5,
       "value": "false"
     },
@@ -14100,7 +14093,7 @@
     {
       "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/bkey-ios-sdk-fjurmvclabbnwrhamthcazuzkjjc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/bkey-ios-sdk\/IntermediateBuildFilesPath\/bkey-ios-sdk.build\/Release-iphoneos\/bkey-ios-sdk.build\/DerivedSources\/CoreDataGenerated\/PublicKeyStoreDataModel\/PublicKey+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 353,
       "length": 11,
       "value": "\"PublicKey\""
     },

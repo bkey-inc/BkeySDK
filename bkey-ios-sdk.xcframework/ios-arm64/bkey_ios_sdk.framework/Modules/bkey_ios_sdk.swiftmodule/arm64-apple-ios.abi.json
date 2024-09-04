@@ -5330,118 +5330,118 @@
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
       "offset": 2205,
-      "length": 10,
-      "value": "\"avatar_1\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 2409,
+      "offset": 2401,
       "length": 37,
       "value": "\"user\/v1\/create-user-from-framework\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2473,
+      "offset": 2465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3264,
       "length": 30,
       "value": "\"auth\/v1\/set-user-public-key\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3332,
+      "offset": 3324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 3474,
+      "offset": 3466,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 3498,
-      "length": 10,
-      "value": "\"avatar_1\""
+      "offset": 3490,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3528,
+      "offset": 3512,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 3894,
       "length": 26,
       "value": "\"Create Identity Failure:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4154,
+      "offset": 4138,
       "length": 29,
       "value": "\"Adding identity to keychain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4204,
+      "offset": 4188,
       "length": 18,
       "value": "\"Identity length \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "Array",
-      "offset": 4340,
+      "offset": 4324,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4723,
+      "offset": 4707,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4757,
+      "offset": 4741,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4807,
+      "offset": 4791,
       "length": 14,
       "value": "\"Save success\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4877,
+      "offset": 4861,
       "length": 35,
       "value": "\"Error storing identities to chain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 5314,
+      "offset": 5298,
       "length": 9,
       "value": "\"example\""
     },

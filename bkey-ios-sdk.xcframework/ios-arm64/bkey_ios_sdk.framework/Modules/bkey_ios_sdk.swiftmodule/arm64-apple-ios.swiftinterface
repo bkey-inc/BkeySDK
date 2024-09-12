@@ -19,7 +19,6 @@ import _SwiftConcurrencyShims
 @_exported import bkey_ios_sdk
 import os.lock
 import os
-
 public enum NFCCardException : Swift.Error {
   case CardWasEmpty
   case FailedToReadCard(Swift.String)
@@ -28,6 +27,7 @@ public enum NFCCardException : Swift.Error {
   case OperationCanceled
 }
 public enum BkeyException : Swift.Error {
+  case UserNotSet
   case FrameworkNotInitialized
   case AccessNotAllowed
   case FrameworkError(Swift.String)
@@ -89,16 +89,7 @@ public enum CallbackType {
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
-  #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize(authToken: Swift.String, callback: @escaping (_ type: bkey_ios_sdk.CallbackType, _ userId: Swift.String, _ displayName: Swift.String, _ authToken: Swift.String, _ displayImage: Swift.String) -> Swift.Void) async throws
-  #endif
   public func CloseSession() throws
-  public func DisplayLaunchScreen() -> some SwiftUI.View
-  
-  public func Authenticate() -> some SwiftUI.View
-  
-  public func VerifyCurrentUserBiometrics(callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
-  
   public func CreateAccount(name: Swift.String, callback: @escaping (Swift.String, Swift.String) -> Swift.Void) -> some SwiftUI.View
   
   public func Login(identityId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void) -> some SwiftUI.View
@@ -106,7 +97,6 @@ extension bkey_ios_sdk.Bkey {
   public struct Identity {
   }
   public func GetIdentities() -> [bkey_ios_sdk.Bkey.Identity]
-  public func VerifyCurrentUserNfcCard() throws -> Swift.Bool
   public func SignString(value: Swift.String) throws -> Foundation.Data
   public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data) throws -> Swift.Bool
   public func SignData(data: Foundation.Data) throws -> Foundation.Data
@@ -115,7 +105,6 @@ extension bkey_ios_sdk.Bkey {
   public func DecryptString(value: Swift.String) throws -> Swift.String
   public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  public func GetCryptoSeedPhrase() throws
   #if compiler(>=5.3) && $AsyncAwait
   public func enableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
   #endif
@@ -126,7 +115,6 @@ extension bkey_ios_sdk.Bkey {
   public func enrollForVideoVerification(lobbyId: Swift.String, clientId: Swift.String, entropy: Swift.String) async throws
   #endif
 }
-
 
 
 
@@ -142,9 +130,6 @@ extension SwiftUI.View {
   }
   
 }
-
-
-
 
 
 

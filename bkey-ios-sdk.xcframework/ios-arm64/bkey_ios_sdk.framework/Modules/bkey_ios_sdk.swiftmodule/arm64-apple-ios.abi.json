@@ -6721,35 +6721,49 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 3987,
-      "length": 44,
+      "offset": 3983,
+      "length": 31,
+      "value": "\"Attempting to disable method:\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 4047,
+      "length": 25,
       "value": "\"user\/v2\/access-methods\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 4022,
-      "length": 1,
+      "offset": 4082,
+      "length": 10,
       "value": "\"\/disable\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
+      "kind": "StringLiteral",
+      "offset": 4111,
+      "length": 6,
+      "value": "\"URL:\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 4119,
+      "offset": 4210,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 4145,
+      "offset": 4236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 4240,
+      "offset": 4331,
       "length": 5,
       "value": "false"
     },

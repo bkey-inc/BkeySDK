@@ -6686,70 +6686,70 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 5026,
+      "offset": 3503,
       "length": 43,
       "value": "\"user\/v2\/access-methods\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 3538,
       "length": 1,
       "value": "\"\/enable\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5156,
+      "offset": 3634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5182,
+      "offset": 3660,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5231,
+      "offset": 3709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 5358,
+      "offset": 3987,
       "length": 44,
       "value": "\"user\/v2\/access-methods\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "StringLiteral",
-      "offset": 5393,
+      "offset": 4022,
       "length": 1,
       "value": "\"\/disable\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5489,
+      "offset": 4119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5515,
+      "offset": 4145,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Web\/WebRequester.swift",
       "kind": "BooleanLiteral",
-      "offset": 5564,
+      "offset": 4240,
       "length": 5,
       "value": "false"
     },

@@ -85,6 +85,9 @@ public enum CallbackType {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class BkeyPasskeyHelper {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey
   @objc deinit

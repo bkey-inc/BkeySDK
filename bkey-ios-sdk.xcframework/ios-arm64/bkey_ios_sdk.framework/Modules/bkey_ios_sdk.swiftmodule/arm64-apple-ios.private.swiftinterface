@@ -86,7 +86,11 @@ public enum CallbackType {
   }
 }
 @_hasMissingDesignatedInitializers public class BkeyPasskeyHelper {
+  public static let shared: bkey_ios_sdk.BkeyPasskeyHelper
   @objc deinit
+}
+extension bkey_ios_sdk.BkeyPasskeyHelper {
+  public func EncryptPasskey(publicKey: Foundation.Data, privKey: CryptoKit.P256.Signing.PrivateKey) throws -> [Swift.UInt8]
 }
 @_hasMissingDesignatedInitializers public class Bkey {
   public static let shared: bkey_ios_sdk.Bkey

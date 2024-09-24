@@ -104,6 +104,7 @@ extension bkey_ios_sdk.Bkey {
   
   public struct Identity {
   }
+  public func GetPublicKey() throws -> [Swift.UInt8]
   public func GetIdentities() -> [bkey_ios_sdk.Bkey.Identity]
   public func SignString(value: Swift.String) throws -> Foundation.Data
   public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data) throws -> Swift.Bool

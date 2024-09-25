@@ -131,8 +131,6 @@ extension bkey_ios_sdk.Bkey {
   public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, includeFace: Swift.Bool = true, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8], callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws
 }
 
-
-
 extension SwiftUI.View {
   @inlinable public func reverseMask<Mask>(alignment: SwiftUI.Alignment = .center, @SwiftUI.ViewBuilder _ mask: () -> Mask) -> some SwiftUI.View where Mask : SwiftUI.View {
     self.mask {

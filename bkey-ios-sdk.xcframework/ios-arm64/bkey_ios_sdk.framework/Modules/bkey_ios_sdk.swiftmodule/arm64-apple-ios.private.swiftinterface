@@ -128,14 +128,14 @@ extension bkey_ios_sdk.Bkey {
   public func enrollForVideoVerification(lobbyId: Swift.String, clientId: Swift.String, entropy: Swift.String) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func RecoveryEnroll(numShares: Swift.UInt16, threshold: Swift.UInt16) async throws -> ([Swift.String], Swift.String, Swift.String)
+  public func RecoveryEnroll(numShares: Swift.UInt16, threshold: Swift.UInt16) async throws -> ([[Swift.UInt8]], [Swift.UInt8], Swift.String)
   #endif
-  public func GetRecoveryTemplateAndPIRef(shares: [Swift.String], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUI.View
+  public func GetRecoveryTemplateAndPIRef(shares: [[Swift.UInt8]], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUI.View
   
   public struct RecoveredIdentity {
   }
   #if compiler(>=5.3) && $AsyncAwait
-  public func Recover(identityId: Swift.String, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8]) async throws -> bkey_ios_sdk.Bkey.RecoveredIdentity
+  public func Recover(identityId: Swift.String, keySeedDelta: [Swift.UInt8], recoveryTemplate: [Swift.UInt8]) async throws -> bkey_ios_sdk.Bkey.RecoveredIdentity
   #endif
 }
 

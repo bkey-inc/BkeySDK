@@ -9033,237 +9033,230 @@
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
       "offset": 533,
-      "length": 2,
-      "value": "\"\""
+      "length": 6,
+      "value": "\"test\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 566,
-      "length": 2,
-      "value": "\"\""
+      "offset": 570,
+      "length": 6,
+      "value": "\"test\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 733,
+      "offset": 732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1197,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1286,
       "length": 21,
       "value": "\"Begin Recovery Flow\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "Array",
-      "offset": 1349,
+      "offset": 1355,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 1473,
+      "offset": 1479,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 2024,
+      "offset": 2030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 2038,
+      "offset": 2044,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 2052,
+      "offset": 2058,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "Array",
-      "offset": 2126,
+      "offset": 2132,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2353,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 2405,
       "length": 36,
       "value": "\"Result of recovery enrollment flow\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2463,
+      "offset": 2469,
       "length": 8,
       "value": "\"Shares\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2546,
       "length": 9,
       "value": "\"ksDelta\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2618,
       "length": 7,
       "value": "\"piRef\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2703,
+      "offset": 2709,
       "length": 25,
       "value": "\"Beginning recovery flow\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2762,
       "length": 42,
       "value": "\"Generating recovery template from shares\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 3820,
       "length": 23,
       "value": "\"sig matched correctly\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "Array",
-      "offset": 3914,
+      "offset": 3920,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 4046,
+      "offset": 4052,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 4546,
+      "offset": 4552,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 4585,
+      "offset": 4591,
       "length": 11,
       "value": "\"pi ref ID\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 4702,
+      "offset": 4708,
       "length": 16,
       "value": "\"Recovering key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
-      "kind": "StringLiteral",
-      "offset": 4970,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 5253,
+      "offset": 5262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 5589,
+      "offset": 5598,
       "length": 19,
       "value": "\"final private key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 5775,
+      "offset": 5784,
       "length": 29,
       "value": "\"final key generation failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 5942,
+      "offset": 5951,
       "length": 14,
       "value": "\"match failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 6078,
+      "offset": 6087,
       "length": 27,
       "value": "\"failed to generate pi key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 6211,
+      "offset": 6220,
       "length": 39,
       "value": "\"sig match failed in recovery template\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 6340,
+      "offset": 6349,
       "length": 24,
       "value": "\"Failed to generate key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 6438,
+      "offset": 6447,
       "length": 19,
       "value": "\"enrollment failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/HardcodedRecoveryFlow.swift",
       "kind": "StringLiteral",
-      "offset": 6527,
+      "offset": 6536,
       "length": 16,
       "value": "\"Recovery Error\""
     },

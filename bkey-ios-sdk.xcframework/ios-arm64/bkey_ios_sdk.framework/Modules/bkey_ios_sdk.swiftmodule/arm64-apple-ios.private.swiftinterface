@@ -132,6 +132,8 @@ extension bkey_ios_sdk.Bkey {
   #endif
   public func GetRecoveryTemplateAndPIRef(shares: [[Swift.UInt8]], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUI.View
   
+  public func HardcodedRecoveryView() -> some SwiftUI.View
+  
   public struct RecoveredIdentity {
   }
   #if compiler(>=5.3) && $AsyncAwait

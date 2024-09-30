@@ -98,7 +98,7 @@ extension bkey_ios_sdk.BkeyPasskeyHelper {
 }
 extension bkey_ios_sdk.Bkey {
   #if compiler(>=5.3) && $AsyncAwait
-  public func Initialize() async
+  public func Initialize(envUrl: Swift.String) async
   #endif
   public func CloseSession() throws
   public func CreateAccount(name: Swift.String, callback: @escaping (Swift.String, Swift.String) -> Swift.Void) -> some SwiftUI.View

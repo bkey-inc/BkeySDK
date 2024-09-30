@@ -7434,71 +7434,64 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3991,
-      "length": 11,
-      "value": "250000000"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4158,
+      "offset": 4160,
       "length": 26,
       "value": "\"Create Identity Failure:\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4402,
+      "offset": 4404,
       "length": 29,
       "value": "\"Adding identity to keychain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4452,
+      "offset": 4454,
       "length": 18,
       "value": "\"Identity length \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "Array",
-      "offset": 4588,
+      "offset": 4590,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4973,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 5005,
+      "offset": 5007,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 5055,
+      "offset": 5057,
       "length": 14,
       "value": "\"Save success\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
+      "offset": 5127,
       "length": 35,
       "value": "\"Error storing identities to chain\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/CreateAccountView.swift",
       "kind": "StringLiteral",
-      "offset": 5562,
+      "offset": 5564,
       "length": 9,
       "value": "\"example\""
     },
@@ -7554,21 +7547,14 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2225,
-      "length": 11,
-      "value": "250000000"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2425,
+      "offset": 2427,
       "length": 11,
       "value": "250000000"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/NewLoginView.swift",
       "kind": "StringLiteral",
-      "offset": 2566,
+      "offset": 2568,
       "length": 20,
       "value": "\"Verification Error\""
     },
@@ -13889,14 +13875,14 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3342,
       "length": 29,
       "value": "\"Shares provided are invalid\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3456,
       "length": 16,
       "value": "\"Recovery Error\""
     },

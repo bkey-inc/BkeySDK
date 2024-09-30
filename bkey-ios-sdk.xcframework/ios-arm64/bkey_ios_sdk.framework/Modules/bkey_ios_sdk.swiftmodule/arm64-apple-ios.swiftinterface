@@ -134,7 +134,7 @@ extension bkey_ios_sdk.Bkey {
   public struct RecoveredIdentity {
   }
   #if compiler(>=5.3) && $AsyncAwait
-  public func Recover(identityId: Swift.String, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8], callback: @escaping (bkey_ios_sdk.Bkey.RecoveredIdentity) -> Swift.Void) async throws
+  public func Recover(identityId: Swift.String, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8]) async throws -> bkey_ios_sdk.Bkey.RecoveredIdentity
   #endif
 }
 

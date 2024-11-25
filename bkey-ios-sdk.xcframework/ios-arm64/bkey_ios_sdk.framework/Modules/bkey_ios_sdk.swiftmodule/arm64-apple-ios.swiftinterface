@@ -107,9 +107,11 @@ extension bkey_ios_sdk.Bkey {
   
   public func ConfirmUser(title: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
   
-  public func TestSomethingHere(title: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
-  
   public struct Identity {
+    public var identityId: Swift.String
+    public var methodId: Swift.String
+    public var name: Swift.String
+    public var image: Swift.String
   }
   public func GetPublicKey() throws -> [Swift.UInt8]
   public func GetPrivateKey() throws -> [Swift.UInt8]

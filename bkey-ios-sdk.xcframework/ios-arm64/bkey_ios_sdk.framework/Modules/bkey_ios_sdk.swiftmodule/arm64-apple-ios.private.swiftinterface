@@ -129,7 +129,7 @@ extension bkey_ios_sdk.Bkey {
   public func GetRecoveryTemplateAndPIRef(shares: [Swift.String], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUICore.View
   
   public func Recover(identityId: Swift.String, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8]) async throws -> (Swift.String, Swift.String, Swift.String, Swift.String, Swift.String)
-  public func GenerateKey(keyType: Swift.UInt16, keySize: Swift.UInt32) throws -> (Swift.Bool, [Swift.UInt8])
+  public func GenerateKey(keyType: Swift.UInt16, keySize: Swift.UInt32, keyID: Swift.UInt16) throws -> (Swift.Bool, [Swift.UInt8])
 }
 
 extension SwiftUICore.View {

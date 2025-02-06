@@ -4122,7 +4122,7 @@
           {
             "kind": "Function",
             "name": "GenerateKey",
-            "printedName": "GenerateKey(keyType:keySize:)",
+            "printedName": "GenerateKey(keyType:keySize:keyID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4162,11 +4162,17 @@
                 "name": "UInt32",
                 "printedName": "Swift.UInt32",
                 "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4SizeSb_Says5UInt8VGts6UInt16V_s6UInt32VtKF",
-            "mangledName": "$s12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4SizeSb_Says5UInt8VGts6UInt16V_s6UInt32VtKF",
+            "usr": "s:12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4Size0G2IDSb_Says5UInt8VGts6UInt16V_s6UInt32VALtKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4Size0G2IDSb_Says5UInt8VGts6UInt16V_s6UInt32VALtKF",
             "moduleName": "bkey_ios_sdk",
             "isFromExtension": true,
             "throwing": true,

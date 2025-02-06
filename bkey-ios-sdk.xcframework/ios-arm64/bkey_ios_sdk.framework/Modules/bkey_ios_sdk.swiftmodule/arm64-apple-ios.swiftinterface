@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bkey_ios_sdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name bkey_ios_sdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Combine
 import CoreData
@@ -97,15 +97,13 @@ extension bkey_ios_sdk.BkeyPasskeyHelper {
   @objc deinit
 }
 extension bkey_ios_sdk.Bkey {
-  #if compiler(>=5.3) && $AsyncAwait
   public func Initialize(envUrl: Swift.String) async
-  #endif
   public func CloseSession() throws
-  public func CreateAccount(name: Swift.String, callback: @escaping (Swift.String, Swift.String) -> Swift.Void) -> some SwiftUI.View
+  public func CreateAccount(name: Swift.String, callback: @escaping (Swift.String, Swift.String) -> Swift.Void) -> some SwiftUICore.View
   
-  public func Login(identityId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void) -> some SwiftUI.View
+  public func Login(identityId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void) -> some SwiftUICore.View
   
-  public func ConfirmUser(title: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
+  public func ConfirmUser(title: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUICore.View
   
   public struct Identity {
     public var identityId: Swift.String
@@ -124,27 +122,18 @@ extension bkey_ios_sdk.Bkey {
   public func DecryptString(value: Swift.String) throws -> Swift.String
   public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  #if compiler(>=5.3) && $AsyncAwait
   public func enableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func disableAccessMethod(methodId: Swift.String) async throws -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func enrollForVideoVerification(lobbyId: Swift.String, clientId: Swift.String, entropy: Swift.String) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func RecoveryEnroll(numShares: Swift.UInt16, threshold: Swift.UInt16) async throws -> ([Swift.String], Swift.String, Swift.String)
-  #endif
-  public func GetRecoveryTemplateAndPIRef(shares: [Swift.String], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUI.View
+  public func GetRecoveryTemplateAndPIRef(shares: [Swift.String], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUICore.View
   
-  #if compiler(>=5.3) && $AsyncAwait
   public func Recover(identityId: Swift.String, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8]) async throws -> (Swift.String, Swift.String, Swift.String, Swift.String, Swift.String)
-  #endif
+  public func GenerateBIP39Key() throws -> (Swift.Bool, [Swift.UInt8])
 }
 
-extension SwiftUI.View {
-  @inlinable public func reverseMask<Mask>(alignment: SwiftUI.Alignment = .center, @SwiftUI.ViewBuilder _ mask: () -> Mask) -> some SwiftUI.View where Mask : SwiftUI.View {
+extension SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency public func reverseMask<Mask>(alignment: SwiftUICore.Alignment = .center, @SwiftUICore.ViewBuilder _ mask: () -> Mask) -> some SwiftUICore.View where Mask : SwiftUICore.View {
     self.mask {
       Rectangle()
         .overlay(alignment: alignment) {

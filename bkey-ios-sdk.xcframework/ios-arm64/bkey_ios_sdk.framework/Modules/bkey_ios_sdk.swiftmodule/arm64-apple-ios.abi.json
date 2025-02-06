@@ -4121,8 +4121,8 @@
           },
           {
             "kind": "Function",
-            "name": "GenerateBIP39Key",
-            "printedName": "GenerateBIP39Key()",
+            "name": "GenerateKey",
+            "printedName": "GenerateKey(keyType:keySize:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4150,11 +4150,23 @@
                     "usr": "s:Sa"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12bkey_ios_sdk4BkeyC16GenerateBIP39KeySb_Says5UInt8VGtyKF",
-            "mangledName": "$s12bkey_ios_sdk4BkeyC16GenerateBIP39KeySb_Says5UInt8VGtyKF",
+            "usr": "s:12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4SizeSb_Says5UInt8VGts6UInt16V_s6UInt32VtKF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC11GenerateKey7keyType0G4SizeSb_Says5UInt8VGts6UInt16V_s6UInt32VtKF",
             "moduleName": "bkey_ios_sdk",
             "isFromExtension": true,
             "throwing": true,

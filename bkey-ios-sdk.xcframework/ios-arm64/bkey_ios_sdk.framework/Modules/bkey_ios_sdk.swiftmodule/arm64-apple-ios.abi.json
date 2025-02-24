@@ -2919,11 +2919,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12bkey_ios_sdk4BkeyC10Initialize6envUrlySS_tYaKF",
-            "mangledName": "$s12bkey_ios_sdk4BkeyC10Initialize6envUrlySS_tYaKF",
+            "usr": "s:12bkey_ios_sdk4BkeyC10Initialize6envUrlySS_tYaF",
+            "mangledName": "$s12bkey_ios_sdk4BkeyC10Initialize6envUrlySS_tYaF",
             "moduleName": "bkey_ios_sdk",
             "isFromExtension": true,
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -5899,273 +5898,280 @@
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 1543,
+      "offset": 1535,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 1570,
+      "offset": 1562,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1593,
       "length": 35,
       "value": "\"Fetching identities from keychain\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1717,
       "length": 23,
       "value": "\"bkey-identity-service\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1751,
       "length": 12,
       "value": "\"identities\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1826,
+      "length": 13,
+      "value": "\"Found some:\""
+    },
+    {
+      "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 2346,
+      "offset": 2369,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 2674,
       "length": 24,
       "value": "\"user\/v2\/access-methods\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2702,
+      "offset": 2725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2897,
+      "offset": 2920,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3083,
       "length": 27,
       "value": "\"No identities in keychain\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3193,
       "length": 22,
       "value": "\"Initializing SDKs...\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3307,
       "length": 22,
       "value": "\"Initialization error\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 9333,
+      "offset": 9332,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 9444,
+      "offset": 9443,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10019,
+      "offset": 10018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 10288,
+      "offset": 10287,
       "length": 29,
       "value": "\"verification\/v1\/enroll-user\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 10378,
+      "offset": 10377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "Array",
-      "offset": 13582,
+      "offset": 13581,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 13673,
+      "offset": 13672,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 13927,
+      "offset": 13926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 14029,
+      "offset": 14028,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14480,
+      "offset": 14479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 14676,
+      "offset": 14675,
       "length": 10,
       "value": "\"Disabled\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 14856,
+      "offset": 14855,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 15050,
+      "offset": 15049,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 15726,
+      "offset": 15725,
       "length": 38,
       "value": "\"bf610f1e-4c71-44a8-8e0a-0eb9c4c84db9\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 15796,
+      "offset": 15795,
       "length": 10,
       "value": "\"Bkey Inc\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 15827,
+      "offset": 15826,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 15989,
+      "offset": 15988,
       "length": 30,
       "value": "\"user\/v1\/create-access-method\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 16046,
+      "offset": 16045,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 16284,
+      "offset": 16283,
       "length": 8,
       "value": "\"Active\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 16347,
+      "offset": 16346,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 16369,
+      "offset": 16368,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 16601,
+      "offset": 16600,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 16895,
+      "offset": 16894,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 17096,
+      "offset": 17095,
       "length": 25,
       "value": "\"user\/v2\/access-methods\/\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 17143,
+      "offset": 17142,
       "length": 12,
       "value": "\"\/recovered\""
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 17245,
+      "offset": 17244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/etornam\/Projects\/BKEY\/bkey-ios-sdk\/bkey-ios-sdk\/bkey-ios-sdk\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 17547,
+      "offset": 17546,
       "length": 15,
       "value": "\"Match Result:\""
     },
